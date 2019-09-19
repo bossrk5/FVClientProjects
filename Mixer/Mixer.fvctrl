@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVSIMCTRL>
+  <OBJECT class="CFvDllManager" myid="-101"/>
+  <OBJECT class="CAllLimiters" myid="-11">
+    <OBJECT class="CCalcLimiters" myid="-3">
+      <PhaseCalcLims>
+        <ITEM>*.5</ITEM>
+      </PhaseCalcLims>
+      <OBJECT K_volumedata="0.5" class="CCommonCalcLims" myid="0"/>
+      <OBJECT class="CPhaseCalcLims" myid="5">
+        <CalcLim>
+          <ITEM>
+            <Limiter>1E-010</Limiter>
+            <LimType>MINLIM</LimType>
+            <MyNMVar>DENSITY</MyNMVar>
+            <MyBlockType>0</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>0</Limiter>
+            <LimType>MINLIM</LimType>
+            <MyNMVar>TEMP</MyNMVar>
+            <MyBlockType>CHeatXferProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>1E+020</Limiter>
+            <LimType>MAXLIM</LimType>
+            <MyNMVar>TEMP</MyNMVar>
+            <MyBlockType>CHeatXferProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>1E+020</Limiter>
+            <LimType>MAXLIM</LimType>
+            <MyNMVar>VEL</MyNMVar>
+            <MyBlockType>CMotionProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>-1E+020</Limiter>
+            <LimType>MINLIM</LimType>
+            <MyNMVar>PRES</MyNMVar>
+            <MyBlockType>CMotionProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>1E+020</Limiter>
+            <LimType>MAXLIM</LimType>
+            <MyNMVar>PRES</MyNMVar>
+            <MyBlockType>CMotionProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>1.0000000000000001E-009</Limiter>
+            <LimType>MINLIM</LimType>
+            <MyNMVar>LIM_NUTURBMIN</MyNMVar>
+            <MyBlockType>CTurbulenceProcess</MyBlockType>
+          </ITEM>
+          <ITEM>
+            <Limiter>1E+020</Limiter>
+            <LimType>MAXLIM</LimType>
+            <MyNMVar>LIM_NUTURBMAXNUMOL</MyNMVar>
+            <MyBlockType>CTurbulenceProcess</MyBlockType>
+          </ITEM>
+        </CalcLim>
+        <MyPhaseID>41</MyPhaseID>
+      </OBJECT>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CExportLMS" myid="-10" SubRegion="0">
+    <OnSurface Enabled="0" Location="FACES">
+      <BConds/>
+    </OnSurface>
+    <InVolume Enabled="0">
+      <Box>0</Box>
+      <Grid Size1="100" Size2="100" LocalSystem="1" Size3="100"/>
+    </InVolume>
+    <Start>
+      <Kind>BYTIME</Kind>
+      <TimeStart>0</TimeStart>
+      <IterStart>1</IterStart>
+    </Start>
+    <Transformation>
+      <Origin x="0" y="0" z="0"/>
+      <Ort0 x="1" y="0" z="0"/>
+      <Ort1 x="0" y="1" z="0"/>
+      <Ort2 x="0" y="0" z="1"/>
+      <Scale>1</Scale>
+    </Transformation>
+  </OBJECT>
+  <OBJECT Method="Multiply" class="CAutoSaveTORT" myid="-9" Enabled="0" AdaptLevel="3">
+    <InFiles/>
+    <Variables/>
+  </OBJECT>
+  <OBJECT class="CAbaqusLink" myid="-8"/>
+  <OBJECT class="CExternalConnections" myid="-7">
+    <Addons/>
+  </OBJECT>
+  <OBJECT class="CAutoSaveLayers" myid="-6">
+    <NonStationary>0</NonStationary>
+    <Frequency>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>50</Iteration>
+    </Frequency>
+    <SaveSolids>1</SaveSolids>
+  </OBJECT>
+  <OBJECT class="CSolverAllStoppers" myid="-5" Representation="0" StopIterations="5">
+    <StopperResidual/>
+    <StopperUser/>
+    <Update>
+      <Kind>BYTIME</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+    </Update>
+    <StartSettings StartTime="0" StartIter="0" CheckMode="CHECKITER"/>
+    <OBJECT class="CFVIterations" myid="-3">
+      <Number>1000000</Number>
+    </OBJECT>
+    <OBJECT class="CFVTimeSpan" begin="0" end="1" myid="-2"/>
+  </OBJECT>
+  <OBJECT class="CAutoSave" myid="-4">
+    <NonStationary>0</NonStationary>
+    <Frequency>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>50</Iteration>
+    </Frequency>
+    <EnSight Enabled="0" Binary="1"/>
+  </OBJECT>
+  <OBJECT SmoothDiffFluxes="0" class="CAdvancedSettings" CheckGrid="0" myid="-3">
+    <Scheme PresGrad="Simple" SideGradAppr="1" Skew="0" Type="Smooth" OffSpeed="0" PresTotal="PtotSimple" SchemeType="Implicit">
+      <SkewBypassAlg>EDGE</SkewBypassAlg>
+      <TimeStepping Method="Standard" NumCoupling="1"/>
+    </Scheme>
+    <LES CheckSolution="0" RndErrStop="0" Maximum="2000" Precision="0.0001" SolverType="AST"/>
+    <LimValue TempMax="1E+020" TempMin="-1E+020" StresMax="1E+020" Extrapolation="0" PresMax="1E+020" PresMin="-1E+020"/>
+    <MGDParameters useMGDtimestep="0"/>
+    <VOFParameters vof_LEV="0.0001" conservative_VOF="1" relaxation_VOF="1" useVOFtimestep="1" usedroplets="0"/>
+    <DISPERSEDparam FitaDmin="0.001"/>
+    <SmallCellParameters DynamicCriteria="0.20000000000000001" Type="ABSOLUTE" Criteria="0.20000000000000001"/>
+    <Balancing>
+      <Kind>NON</Kind>
+      <TimeStart>0</TimeStart>
+      <TimeDuration>0</TimeDuration>
+      <TimePeriod>0</TimePeriod>
+      <IterStart>1</IterStart>
+      <IterDuration>1</IterDuration>
+      <IterPeriod>1</IterPeriod>
+    </Balancing>
+    <TurbulenceParameters RplusMin="1" Fr_background="0.089999999999999997" DistViaPotential="1" YplusMin="1" T_Kader="0" StandardWF="0" T_variation="0" T_profile="3"/>
+    <ChemistryParameters MatrixSolver="0"/>
+    <ExportLoadings>
+      <SaveData>
+        <Kind>NON</Kind>
+        <Time>0</Time>
+        <Iteration>1</Iteration>
+        <Filename>loadings.glo</Filename>
+        <Mode>APPEND</Mode>
+        <UpdateOnStop>0</UpdateOnStop>
+      </SaveData>
+      <Subject>NODE_LOADINGS</Subject>
+      <Items/>
+    </ExportLoadings>
+    <MainLog WriteMainLog="1" MainLogDepth="-1"/>
+    <SlideSurface Type="Sliding"/>
+  </OBJECT>
+  <OBJECT class="CTimeStep" DisConvergenceLimit="1E-010" myid="-2" Type="User">
+    <Step Source="*.0"/>
+    <CFL Source="*.1"/>
+    <CFLSURF Source="*.2"/>
+    <CFLDIFF Source="*.3"/>
+    <CFLSLIDE Source="*.4"/>
+    <Maximum Source="*.5"/>
+    <Minimum Source="*.6"/>
+    <OBJECT class="CFvValueConstant" Constant="0.01" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="1" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="1E+020" myid="2"/>
+    <OBJECT class="CFvValueConstant" Constant="1E+020" myid="3"/>
+    <OBJECT class="CFvValueConstant" Constant="1" myid="4"/>
+    <OBJECT class="CFvValueConstant" Constant="1" myid="5"/>
+    <OBJECT class="CFvValueConstant" Constant="9.9999999999999995E-021" myid="6"/>
+  </OBJECT>
+</FVSIMCTRL>
