@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<FVSTATUS totalCellsOBL="0" timeIter="13" slideTimeStep="3.4028234663852886E+038" current="0.12999999999999998" expTimeStepFSI="0" timeStep="0.01" expTimeStep="0.00010531079563868235" totalCells="18037" surfTimeStep="0.014285714107142846" calcCellsOBL="0" calcCells="16504" UIName="VarStatus" difTimeStep="0.018751340401978331">
+<FVSTATUS totalCellsOBL="0" timeIter="13" slideTimeStep="3.4028234663852886E+038" current="0.12999999999999998" expTimeStepFSI="0" timeStep="0.01" expTimeStep="0.00010531081386698129" totalCells="18037" surfTimeStep="0.014285714107142846" calcCellsOBL="0" calcCells="16504" UIName="VarStatus" difTimeStep="0.018751344763457103">
   <UseOld Grid="1" Data="1" Mask="1"/>
   <eqResiduals>
-    <ITEM EqRes="0.010639328591319471" Iters="15" Step="13" Name="Pressure" IsOBL="0" MaxEqRes="98.740727608881187" LinRes="3.2033424074573604E-005">
+    <ITEM EqRes="0.010639242909506514" Iters="15" Step="13" Name="Pressure" IsOBL="0" MaxEqRes="98.74072760887951" LinRes="3.2191860318008745E-005">
       <Var Size="1" IDModel="69" IDVar="PRES" IDPhase="41" BlockType="CMotionProcess"/>
     </ITEM>
-    <ITEM EqRes="0.08796612303754163" Iters="45" Step="13" Name="Velocity" IsOBL="0" MaxEqRes="74.561073114889524" LinRes="9.3390115756780435E-005">
+    <ITEM EqRes="0.087966454059740809" Iters="45" Step="13" Name="Velocity" IsOBL="0" MaxEqRes="74.561073115066819" LinRes="8.7788627589914235E-005">
       <Var Size="3" IDModel="69" IDVar="VEL" IDPhase="41" BlockType="CMotionProcess"/>
     </ITEM>
-    <ITEM EqRes="0.1347476236077037" Iters="18" Step="13" Name="TurbEnergy" IsOBL="0" MaxEqRes="38.103364690416043" LinRes="5.8351676515426948E-005">
+    <ITEM EqRes="0.13474711997806291" Iters="18" Step="13" Name="TurbEnergy" IsOBL="0" MaxEqRes="38.103364635457602" LinRes="5.8354662905164034E-005">
       <Var Size="1" IDModel="69" IDVar="KTURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
     </ITEM>
-    <ITEM EqRes="0.11843476123354413" Iters="13" Step="13" Name="TurbDissipation" IsOBL="0" MaxEqRes="28.185602782262823" LinRes="9.0397073080823005E-005">
+    <ITEM EqRes="0.11843392752975737" Iters="13" Step="13" Name="TurbDissipation" IsOBL="0" MaxEqRes="28.185602747955016" LinRes="9.0421071664128564E-005">
       <Var Size="1" IDModel="69" IDVar="ETURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
     </ITEM>
-    <ITEM EqRes="0.88852763964383519" Iters="31" Step="13" Name="Enthalpy" IsOBL="0" MaxEqRes="16.810249010967365" LinRes="8.1315470286371115E-005">
+    <ITEM EqRes="0.88852850367772251" Iters="31" Step="13" Name="Enthalpy" IsOBL="0" MaxEqRes="16.810249454739598" LinRes="8.1376350793097696E-005">
       <Var Size="1" IDModel="69" IDVar="ENTH" IDPhase="41" BlockType="CHeatXferProcess"/>
     </ITEM>
   </eqResiduals>

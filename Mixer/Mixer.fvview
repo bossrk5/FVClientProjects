@@ -129,10 +129,10 @@
     <RegularGrid>0</RegularGrid>
     <Resolution Size1="100" Size2="100" LocalSystem="1" Size3="1"/>
     <DoubleResolution>0</DoubleResolution>
-    <Mapping MappingMode="LOCAL" Min="-0.1730043888092041" Max="5.6430583000183105"/>
+    <Mapping MappingMode="LOCAL" Min="1.5991237163543701" Max="70.714057922363281"/>
     <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
     <Palette>
-      <Overlay HorzAlign="LEFT" Enabled="1" ShowTitle="0" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00FFFFFF"/>
+      <Overlay HorzAlign="LEFT" Enabled="1" ShowTitle="1" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00FFFFFF"/>
       <Gradations>0</Gradations>
       <Colors>
         <ITEM>000000FF</ITEM>
@@ -223,7 +223,7 @@
         <Pivot x="0" y="0" z="0"/>
       </Relativity>
     </CoorSystem>
-    <Mapping ReferenceLen="0.0016492422114413644" MappingMode="LOCAL" ConstantLen="0" Max="3.364581823348999"/>
+    <Mapping ReferenceLen="0.0016492422114413644" MappingMode="LOCAL" ConstantLen="0" Max="3.5648655891418457"/>
     <Mode>FULL</Mode>
     <Lines Width="1" Color="00FFFFFF"/>
     <Arrows Angle="20" Mode="LINES" Size="20"/>
@@ -318,10 +318,10 @@
     <RegularGrid>0</RegularGrid>
     <Resolution Size1="100" Size2="100" LocalSystem="1" Size3="1"/>
     <DoubleResolution>0</DoubleResolution>
-    <Mapping MappingMode="LOCAL" Min="-0.15966621041297913" Max="71.0186767578125"/>
+    <Mapping MappingMode="LOCAL" Min="-0.5779997706413269" Max="70.424880981445313"/>
     <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
     <Palette>
-      <Overlay HorzAlign="LEFT" Enabled="0" ShowTitle="0" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00FFFFFF"/>
+      <Overlay HorzAlign="LEFT" Enabled="1" ShowTitle="1" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00FFFFFF"/>
       <Gradations>0</Gradations>
       <Colors>
         <ITEM>000000FF</ITEM>
@@ -412,7 +412,7 @@
         <Pivot x="0" y="0" z="0"/>
       </Relativity>
     </CoorSystem>
-    <Mapping ReferenceLen="0.0016492422114413644" MappingMode="LOCAL" ConstantLen="0" Max="1.4612827301025391"/>
+    <Mapping ReferenceLen="0.0016492422114413644" MappingMode="LOCAL" ConstantLen="0" Max="2.3354136943817139"/>
     <Mode>FULL</Mode>
     <Lines Width="1" Color="00FFFFFF"/>
     <Arrows Angle="20" Mode="LINES" Size="20"/>

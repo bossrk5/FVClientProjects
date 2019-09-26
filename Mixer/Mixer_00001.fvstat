@@ -2,19 +2,19 @@
 <FVSTATUS totalCellsOBL="0" timeIter="1" slideTimeStep="3.4028234663852886E+038" current="0.01" expTimeStepFSI="0" timeStep="0.01" expTimeStep="0.0003888313629431301" totalCells="17701" surfTimeStep="0.014285714107142846" calcCellsOBL="0" calcCells="16168" UIName="VarStatus" difTimeStep="0.54936315018897297">
   <UseOld Grid="1" Data="1" Mask="1"/>
   <eqResiduals>
-    <ITEM EqRes="1" Iters="30" Step="1" Name="Pressure" IsOBL="0" MaxEqRes="98.740727608881187" LinRes="6.9132822658921658E-005">
+    <ITEM EqRes="1" Iters="30" Step="1" Name="Pressure" IsOBL="0" MaxEqRes="98.74072760887951" LinRes="6.8625875375882798E-005">
       <Var Size="1" IDModel="69" IDVar="PRES" IDPhase="41" BlockType="CMotionProcess"/>
     </ITEM>
-    <ITEM EqRes="1" Iters="22" Step="1" Name="Velocity" IsOBL="0" MaxEqRes="74.561073114889524" LinRes="7.7827500821405179E-006">
+    <ITEM EqRes="1" Iters="7" Step="1" Name="Velocity" IsOBL="0" MaxEqRes="74.561073115066819" LinRes="3.0211604305063358E-006">
       <Var Size="3" IDModel="69" IDVar="VEL" IDPhase="41" BlockType="CMotionProcess"/>
     </ITEM>
-    <ITEM EqRes="1" Iters="4" Step="1" Name="TurbEnergy" IsOBL="0" MaxEqRes="0.08040138506547688" LinRes="1.3654533257702715E-005">
+    <ITEM EqRes="1" Iters="4" Step="1" Name="TurbEnergy" IsOBL="0" MaxEqRes="0.080401385546872067" LinRes="1.3654528950841085E-005">
       <Var Size="1" IDModel="69" IDVar="KTURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
     </ITEM>
-    <ITEM EqRes="1" Iters="3" Step="1" Name="TurbDissipation" IsOBL="0" MaxEqRes="0.15437617996983558" LinRes="1.7438918305131929E-005">
+    <ITEM EqRes="1" Iters="3" Step="1" Name="TurbDissipation" IsOBL="0" MaxEqRes="0.15437619364047575" LinRes="1.7438919080513472E-005">
       <Var Size="1" IDModel="69" IDVar="ETURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
     </ITEM>
-    <ITEM EqRes="1" Iters="25" Step="1" Name="Enthalpy" IsOBL="0" MaxEqRes="8.3975334708543929" LinRes="5.5244213951093992E-005">
+    <ITEM EqRes="1" Iters="25" Step="1" Name="Enthalpy" IsOBL="0" MaxEqRes="8.3975334706048699" LinRes="5.4971739406329044E-005">
       <Var Size="1" IDModel="69" IDVar="ENTH" IDPhase="41" BlockType="CHeatXferProcess"/>
     </ITEM>
   </eqResiduals>
