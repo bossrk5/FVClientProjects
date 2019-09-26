@@ -78,7 +78,9 @@
   </OBJECT>
   <OBJECT class="CSolverAllStoppers" myid="-5" Representation="0" StopIterations="5">
     <StopperResidual/>
-    <StopperUser/>
+    <StopperUser>
+      <ITEM>*.2</ITEM>
+    </StopperUser>
     <Update>
       <Kind>BYTIME</Kind>
       <Time>0</Time>
@@ -89,6 +91,13 @@
       <Number>1000000</Number>
     </OBJECT>
     <OBJECT class="CFVTimeSpan" begin="0" end="10000000000" myid="-2"/>
+    <OBJECT Averaging="COMMON" class="CUserStopper" myid="2" GUID="2957A2FE-AEED-4042-B6B2-22FB3CAF0727" Group="0" Comp="LENGTH" Object="*-2.-2.-99" Level="0" UGV="0" UIName="Критерий останова #0" Color="00D2EAAA">
+      <AveragingSettings>
+        <Kind>BYTIME</Kind>
+        <Time>0</Time>
+        <Iteration>1</Iteration>
+      </AveragingSettings>
+    </OBJECT>
   </OBJECT>
   <OBJECT class="CAutoSave" myid="-4">
     <NonStationary>0</NonStationary>
