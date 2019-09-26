@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVSTATUS totalCellsOBL="0" timeIter="8" slideTimeStep="3.4028234663852886E+038" current="0.080000000000000002" expTimeStepFSI="0" timeStep="0.01" expTimeStep="0.00013150588637141148" totalCells="18037" surfTimeStep="0.014285714107142846" calcCellsOBL="0" calcCells="16504" UIName="VarStatus" difTimeStep="0.019724782002871467">
+  <UseOld Grid="1" Data="1" Mask="1"/>
+  <eqResiduals>
+    <ITEM EqRes="0.0079911392314330389" Iters="17" Step="8" Name="Pressure" IsOBL="0" MaxEqRes="98.740727608881187" LinRes="6.0581118030272847E-005">
+      <Var Size="1" IDModel="69" IDVar="PRES" IDPhase="41" BlockType="CMotionProcess"/>
+    </ITEM>
+    <ITEM EqRes="0.15239380955009449" Iters="36" Step="8" Name="Velocity" IsOBL="0" MaxEqRes="74.561073114889524" LinRes="9.1477358805984278E-005">
+      <Var Size="3" IDModel="69" IDVar="VEL" IDPhase="41" BlockType="CMotionProcess"/>
+    </ITEM>
+    <ITEM EqRes="0.29205446234154847" Iters="25" Step="8" Name="TurbEnergy" IsOBL="0" MaxEqRes="38.103364690416043" LinRes="8.9246255069715694E-005">
+      <Var Size="1" IDModel="69" IDVar="KTURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
+    </ITEM>
+    <ITEM EqRes="0.27051748134157239" Iters="18" Step="8" Name="TurbDissipation" IsOBL="0" MaxEqRes="28.185602782262823" LinRes="5.3428970201513771E-005">
+      <Var Size="1" IDModel="69" IDVar="ETURB" IDPhase="41" BlockType="CTurbulenceProcess"/>
+    </ITEM>
+    <ITEM EqRes="1" Iters="52" Step="8" Name="Enthalpy" IsOBL="0" MaxEqRes="16.155284199149889" LinRes="8.9136146676747498E-005">
+      <Var Size="1" IDModel="69" IDVar="ENTH" IDPhase="41" BlockType="CHeatXferProcess"/>
+    </ITEM>
+  </eqResiduals>
+  <stopperData/>
+  <variableData/>
+  <OBJECT class="CActivationStatus" myid="0">
+    <Context>*-2.-2.-97.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>0.070000000000000007</LastTime>
+    <LastIter>7</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="1">
+    <Context>*-2.-2.-97.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>0.070000000000000007</LastTime>
+    <LastIter>7</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="2">
+    <Context>*-2.-2.-97.-5</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>0.070000000000000007</LastTime>
+    <LastIter>7</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="3">
+    <Context>*-2.-5.-3</Context>
+    <StructPath>Balancing</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="4">
+    <Context>*-2.-5.-10</Context>
+    <StructPath>Start</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="5">
+    <Context>*-2.-2.1.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="6">
+    <Context>*-2.-2.1.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="7">
+    <Context>*-2.-2.2.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="8">
+    <Context>*-2.-2.2.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+</FVSTATUS>

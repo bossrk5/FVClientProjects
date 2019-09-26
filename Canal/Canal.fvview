@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVSCENE AppVersion="FlowVision PrePostProcessor, version 3.11.01-W64 build 20190523 changeset 39055" GridCoordSys="1">
+  <ShowTimeTitle>0</ShowTimeTitle>
+  <TextTitle FontSize="24" BgAlpha="100" ShowTime="0" BgColor="00FFFFFF" ShowIter="0" Color="00FFFFFF">
+    <Title></Title>
+    <TimeFormat NumDigits="5" Scientific="0" SplitFormat="0"/>
+    <UserValueLines/>
+    <Position VAlign="VA_TOP" HShift="0.5" VShift="0" HAlign="HA_LEFT"/>
+  </TextTitle>
+  <OBJECT Lit="1" class="CSpaceObjectLayer" myid="0" Clipped="0" GUID="6DD10542-73F0-442B-969F-26196E66C05F" Visible="1">
+    <Object>*-2.-2.0</Object>
+  </OBJECT>
+  <OBJECT class="CIntegralCharsLayer" myid="1">
+    <SaveData>
+      <Kind>NON</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>IntegralCharsLayer0.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Chars>*-2.-2.-99</Chars>
+  </OBJECT>
+  <OBJECT class="CPlaneEntity" shiftAlongNormal="0" myid="2" GUID="81A5FE5F-B8AE-4FB6-9216-A0589FBD4FB0" UIName="Плоскость #0">
+    <center x="150" y="20" z="0.0050000000000000001"/>
+    <normal x="0" y="0" z="1"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CPlaneObjectLayer" Clipper="0" myid="3" Clipped="0" GUID="A0E6A1D1-12CC-488F-A38B-921151096249" Visible="1" Mirror="0">
+    <Object>*-2.-4.2</Object>
+    <OBJECT Mode="WIRE" class="CCommonAppearance" myid="0">
+      <Lines Width="3" Color="00FFFF00"/>
+      <Fill Alpha="100" Color="00808000"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT m_HPosition="eLeft" Lit="1" class="CCoordSystemLayer" myid="4" Clipped="0" m_ViewportPart="0.16250000000000001" GUID="BA1D95E8-800F-445B-864B-067EBB6233DF" Visible="1" m_VPosition="eBottom" m_InOrigin="0">
+    <Object>*-2.-2.0</Object>
+  </OBJECT>
+  <OBJECT Lit="1" class="CSolidGeometryLayer" myid="5" Clipped="0" GUID="7D5A28C3-579E-4912-A7A2-E58462BC4908" Visible="1">
+    <Object>*-2.-2.0</Object>
+    <Outlines Width="4" Color="00FFFFFF"/>
+    <Outside UseInside="1">
+      <Appearance Fill="DEFAULT" Material="0" Wire="DEFAULT" Alpha="50" Color="00C0C0C0"/>
+    </Outside>
+    <OBJECT class="CVariantView" myid="-2">
+      <OBJECT class="CRegionView" myid="-2" Clipped="DEFAULT" Visible="DEFAULT">
+        <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+        <Trans Enabled="DEFAULT" Alpha="50"/>
+        <OBJECT class="CSubregFolderView" myid="-2">
+          <OBJECT class="CSubregionView" myid="2" Clipped="DEFAULT" Visible="DEFAULT">
+            <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+            <Trans Enabled="DEFAULT" Alpha="50"/>
+            <OBJECT class="CGeometryView" myid="-4" Clipped="DEFAULT" Visible="DEFAULT">
+              <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+              <Trans Enabled="DEFAULT" Alpha="50"/>
+            </OBJECT>
+            <OBJECT class="CMBFolderView" myid="-3"/>
+            <OBJECT class="CBCFolderView" myid="-2">
+              <OBJECT Material="0" class="CBConditionView" myid="5" Clipped="DEFAULT" Visible="DEFAULT" Color="00484848">
+                <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+                <Trans Enabled="DEFAULT" Alpha="50"/>
+              </OBJECT>
+            </OBJECT>
+          </OBJECT>
+        </OBJECT>
+      </OBJECT>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT Lit="1" class="CIniGridLayer" Surface="1" myid="6" Clipped="0" GUID="E580FA01-297B-4293-9DD6-CE652466B378" Visible="0">
+    <Object>*-2.-2.0</Object>
+    <Lines Width="1" Color="00FFFFFF"/>
+  </OBJECT>
+</FVSCENE>

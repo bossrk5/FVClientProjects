@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVINPUT AppVersion="FlowVision PrePostProcessor, version 3.11.01-W64 build 20190523 changeset 39055">
+  <LocalFrameRef>0</LocalFrameRef>
+  <Rotation>0</Rotation>
+  <Substances/>
+  <Phases/>
+  <Models/>
+  <localFRArray/>
+  <Modifiers/>
+  <SubRegions>
+    <ITEM>*.1</ITEM>
+    <ITEM>*.2</ITEM>
+  </SubRegions>
+  <Source>C:\Users\admin\Documents\canal1.wrl</Source>
+  <Tolerance>1E-008</Tolerance>
+  <OBJECT class="CFvDllManager" myid="-101"/>
+  <OBJECT class="CRegionCharacteristics" myid="-99" GUID="4703060C-1F05-46F6-A600-FC7A95861AE6">
+    <Object>*-2.-2.0</Object>
+    <Settings>
+      <Mode>VOLUME</Mode>
+      <Parts/>
+    </Settings>
+    <normal x="0" y="0" z="0"/>
+    <EnclaveAnalysis VolThreshold="0" Enabled="0" SmallPolicy="KEEP"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+  </OBJECT>
+  <OBJECT class="CGeneralSettings" myid="-98">
+    <RefValue Temp="273" Pres="101000"/>
+    <Gravity>
+      <x Source="*.0"/>
+      <y Source="*.1"/>
+      <z Source="*.2"/>
+    </Gravity>
+    <GPOINT x="0" y="0" z="0"/>
+    <g_density>0</g_density>
+    <GLEVEL/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+  </OBJECT>
+  <OBJECT class="CGridParameters" myid="-97">
+    <OBJECT class="CGridLines" myid="-100">
+      <X>
+        <ITEM>0</ITEM>
+        <ITEM>300</ITEM>
+      </X>
+      <Y>
+        <ITEM>0</ITEM>
+        <ITEM>40</ITEM>
+      </Y>
+      <Z>
+        <ITEM>0</ITEM>
+        <ITEM>0.01</ITEM>
+      </Z>
+      <editorData/>
+    </OBJECT>
+    <OBJECT class="CAdpArrayToCond" myid="-5">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="COBLArray" myid="-4">
+      <Activation>
+        <Type>PERMANENT</Type>
+        <IterStart>0</IterStart>
+        <TimeStart>0</TimeStart>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdpArrayToSolution" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+      <cellCount Source="*.0"/>
+      <SubWeights>
+        <ITEM>1</ITEM>
+        <ITEM>1</ITEM>
+      </SubWeights>
+      <OBJECT class="CFvValueConstant" Constant="5000" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CAdpArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CBinderLinks" myid="-96">
+    <BinderConditions/>
+    <Binders/>
+    <FreeBConds/>
+  </OBJECT>
+  <OBJECT Debug="0" class="CExternalInteractions" myid="-95">
+    <ExchangeTime>
+      <Type>*.-2</Type>
+      <UserStep Source="*.0"/>
+      <UndefStep>0.001</UndefStep>
+      <StepCoef Source="*.1"/>
+    </ExchangeTime>
+    <OldOffsetMethod>1</OldOffsetMethod>
+    <SaveAfterReceive>0</SaveAfterReceive>
+    <Interactions/>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-4">
+      <InterSurfaces/>
+      <Type>2</Type>
+    </OBJECT>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-3">
+      <InterSurfaces/>
+      <Type>1</Type>
+    </OBJECT>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-2">
+      <InterSurfaces/>
+      <Type>0</Type>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0.01" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="1" myid="1"/>
+  </OBJECT>
+  <OBJECT class="CSpaceEntity" myid="0" GUID="FAD56DBB-0D64-45E1-8B1C-A023BE6B7E9F"/>
+  <OBJECT class="CSubregion" myid="1" UIName="Outside">
+    <Kind>OUTSIDE</Kind>
+    <Model>0</Model>
+    <LocalFrameRef>0</LocalFrameRef>
+    <Rotation>0</Rotation>
+    <BConditions>
+      <ITEM>*.5</ITEM>
+    </BConditions>
+    <Filters/>
+    <InitialData/>
+    <OBJECT class="CAdaptArrayToSolution" maxLevel="1" cellCount="5000" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdaptArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="3"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="4"/>
+    <OBJECT class="CBCondition" myid="5" UIName="ГУ #0" Color="00808080">
+      <Type>WALL</Type>
+      <WallTypes/>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CSubregion" myid="2" UIName="Подобласть #0">
+    <Kind>CALCULATE</Kind>
+    <Model>0</Model>
+    <LocalFrameRef>0</LocalFrameRef>
+    <Rotation>0</Rotation>
+    <BConditions>
+      <ITEM>*.5</ITEM>
+    </BConditions>
+    <Filters/>
+    <InitialData/>
+    <OBJECT class="CAdaptArrayToSolution" maxLevel="1" cellCount="5000" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdaptArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="3"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="4"/>
+    <OBJECT class="CBCondition" myid="5" UIName="ГУ #0" Color="00484848">
+      <Type>WALL</Type>
+      <WallTypes/>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+    </OBJECT>
+  </OBJECT>
+</FVINPUT>

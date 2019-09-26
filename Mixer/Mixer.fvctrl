@@ -62,7 +62,7 @@
       </OBJECT>
     </OBJECT>
   </OBJECT>
-  <OBJECT class="CExportLMS" myid="-10" SubRegion="0">
+  <OBJECT class="CExportLMS" myid="-10" SubRegion="*-2.-2.2">
     <OnSurface Enabled="0" Location="FACES">
       <BConds/>
     </OnSurface>
@@ -92,7 +92,7 @@
     <Addons/>
   </OBJECT>
   <OBJECT class="CAutoSaveLayers" myid="-6">
-    <NonStationary>0</NonStationary>
+    <NonStationary>1</NonStationary>
     <Frequency>
       <Kind>AUTO</Kind>
       <Time>0</Time>
@@ -110,12 +110,12 @@
     </Update>
     <StartSettings StartTime="0" StartIter="0" CheckMode="CHECKITER"/>
     <OBJECT class="CFVIterations" myid="-3">
-      <Number>1000000</Number>
+      <Number>1000000000</Number>
     </OBJECT>
     <OBJECT class="CFVTimeSpan" begin="0" end="1" myid="-2"/>
   </OBJECT>
   <OBJECT class="CAutoSave" myid="-4">
-    <NonStationary>0</NonStationary>
+    <NonStationary>1</NonStationary>
     <Frequency>
       <Kind>AUTO</Kind>
       <Time>0</Time>

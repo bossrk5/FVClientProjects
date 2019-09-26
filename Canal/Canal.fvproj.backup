@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVPROJECT>
+  <ProjID>33D5CDC2-90B7-4AC3-A7EE-E4D08C0D9AA6</ProjID>
+  <VersionID>F7A52950-0FD6-4480-81CB-AECCB206D393</VersionID>
+  <SceneID>3F7A7BCB-6FCF-485A-9B93-769DF888A905</SceneID>
+  <CtrlID>0A68EE0D-EA8C-4013-B741-866D3D95F7DD</CtrlID>
+  <GeomPrepID>BA9F433D-6561-4120-AE83-2891DD710CF5</GeomPrepID>
+  <FormatVer>3</FormatVer>
+  <Steps>
+    <ITEM>
+      <Number>0</Number>
+      <Iteration>0</Iteration>
+      <Time>0</Time>
+      <Contents>HGBS</Contents>
+    </ITEM>
+  </Steps>
+</FVPROJECT>
