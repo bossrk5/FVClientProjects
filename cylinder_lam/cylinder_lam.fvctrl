@@ -4,10 +4,10 @@
   <OBJECT class="CAllLimiters" myid="-11">
     <OBJECT class="CCalcLimiters" myid="-3">
       <PhaseCalcLims>
-        <ITEM>*.7</ITEM>
+        <ITEM>*.5</ITEM>
       </PhaseCalcLims>
       <OBJECT K_volumedata="0.5" class="CCommonCalcLims" myid="0"/>
-      <OBJECT class="CPhaseCalcLims" myid="7">
+      <OBJECT class="CPhaseCalcLims" myid="5">
         <CalcLim>
           <ITEM>
             <Limiter>1E-010</Limiter>
@@ -34,11 +34,11 @@
             <MyBlockType>CMotionProcess</MyBlockType>
           </ITEM>
         </CalcLim>
-        <MyPhaseID>51</MyPhaseID>
+        <MyPhaseID>41</MyPhaseID>
       </OBJECT>
     </OBJECT>
   </OBJECT>
-  <OBJECT class="CExportLMS" myid="-10" SubRegion="*-2.-2.2">
+  <OBJECT class="CExportLMS" myid="-10" SubRegion="0">
     <OnSurface Enabled="0" Location="FACES">
       <BConds/>
     </OnSurface>
@@ -79,7 +79,7 @@
   <OBJECT class="CSolverAllStoppers" myid="-5" Representation="0" StopIterations="5">
     <StopperResidual/>
     <StopperUser>
-      <ITEM>*.2</ITEM>
+      <ITEM>*.18</ITEM>
     </StopperUser>
     <Update>
       <Kind>BYTIME</Kind>
@@ -91,7 +91,7 @@
       <Number>1000000</Number>
     </OBJECT>
     <OBJECT class="CFVTimeSpan" begin="0" end="10000000000" myid="-2"/>
-    <OBJECT Averaging="COMMON" class="CUserStopper" myid="2" GUID="2957A2FE-AEED-4042-B6B2-22FB3CAF0727" Group="0" Comp="LENGTH" Object="*-2.-2.-99" Level="0" UGV="0" UIName="Критерий останова #0" Color="00D2EAAA">
+    <OBJECT Averaging="COMMON" class="CUserStopper" myid="18" GUID="D1D76746-BCD1-4F38-8065-A6A7F4FE1334" Group="0" Comp="X" Object="*-2.-2.117" Level="0" UGV="14" UIName="Критерий останова #0" Color="0011A30C">
       <AveragingSettings>
         <Kind>BYTIME</Kind>
         <Time>0</Time>
@@ -153,12 +153,12 @@
     <CFLSLIDE Source="*.4"/>
     <Maximum Source="*.5"/>
     <Minimum Source="*.6"/>
-    <OBJECT class="CFvValueConstant" Constant="300000" myid="0"/>
-    <OBJECT class="CFvValueConstant" Constant="1" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0.25" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="100" myid="1"/>
     <OBJECT class="CFvValueConstant" Constant="1E+020" myid="2"/>
     <OBJECT class="CFvValueConstant" Constant="1E+020" myid="3"/>
     <OBJECT class="CFvValueConstant" Constant="1" myid="4"/>
-    <OBJECT class="CFvValueConstant" Constant="1" myid="5"/>
+    <OBJECT class="CFvValueConstant" Constant="10" myid="5"/>
     <OBJECT class="CFvValueConstant" Constant="9.9999999999999995E-021" myid="6"/>
   </OBJECT>
 </FVSIMCTRL>

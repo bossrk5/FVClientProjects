@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVSTATUS totalCellsOBL="0" timeIter="18" slideTimeStep="3.4028234663852886E+038" current="180" expTimeStepFSI="0" timeStep="10" expTimeStep="141.13755654827187" totalCells="6410" surfTimeStep="3.4028234663852886E+038" calcCellsOBL="0" calcCells="6398" UIName="VarStatus" difTimeStep="4.9442688286692213">
+  <UseOld Grid="1" Data="1" Mask="1"/>
+  <eqResiduals>
+    <ITEM EqRes="0.00040282744765122042" Iters="8" Step="18" Name="Давление" IsOBL="0" MaxEqRes="4.378952151969389" LinRes="8.6648220694978569E-005">
+      <Var Size="1" IDModel="69" IDVar="PRES" IDPhase="41" BlockType="CMotionProcess"/>
+    </ITEM>
+    <ITEM EqRes="0.0033011777801865952" Iters="27" Step="18" Name="Скорость" IsOBL="0" MaxEqRes="0.063903018552411955" LinRes="6.9535590970189361E-005">
+      <Var Size="3" IDModel="69" IDVar="VEL" IDPhase="41" BlockType="CMotionProcess"/>
+    </ITEM>
+  </eqResiduals>
+  <stopperData/>
+  <variableData/>
+  <OBJECT class="CActivationStatus" myid="0">
+    <Context>*-2.-2.1.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="1">
+    <Context>*-2.-2.2.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="2">
+    <Context>*-2.-5.-3</Context>
+    <StructPath>Balancing</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="3">
+    <Context>*-2.-2.2.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="4">
+    <Context>*-2.-2.1.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="5">
+    <Context>*-2.-2.-97.-2</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>170</LastTime>
+    <LastIter>17</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="6">
+    <Context>*-2.-2.-97.-5</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>170</LastTime>
+    <LastIter>17</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="7">
+    <Context>*-2.-5.-10</Context>
+    <StructPath>Start</StructPath>
+    <LastTime>-2</LastTime>
+    <LastIter>-2</LastIter>
+  </OBJECT>
+  <OBJECT class="CActivationStatus" myid="8">
+    <Context>*-2.-2.-97.-3</Context>
+    <StructPath>Activation</StructPath>
+    <LastTime>170</LastTime>
+    <LastIter>17</LastIter>
+  </OBJECT>
+</FVSTATUS>
