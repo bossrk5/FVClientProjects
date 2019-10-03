@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<FVSTATUS totalCellsOBL="0" timeIter="0" slideTimeStep="0" current="0" expTimeStepFSI="0" timeStep="0" expTimeStep="0" totalCells="0" surfTimeStep="0" calcCellsOBL="0" calcCells="0" UIName="VarStatus" difTimeStep="0">
+<FVSTATUS totalCellsOBL="0" timeIter="150" slideTimeStep="3.4028234663852886E+038" current="45000000" expTimeStepFSI="0" timeStep="300000" expTimeStep="14530.68828397878" totalCells="400" surfTimeStep="3.4028234663852886E+038" calcCellsOBL="0" calcCells="400" UIName="VarStatus" difTimeStep="1000000">
   <UseOld Grid="1" Data="1" Mask="1"/>
-  <eqResiduals/>
+  <eqResiduals>
+    <ITEM EqRes="0.00059413667553012521" Iters="12" Step="150" Name="Pressure" IsOBL="0" MaxEqRes="4.0701673668469618E-006" LinRes="9.8292092824555036E-005">
+      <Var Size="1" IDModel="32" IDVar="PRES" IDPhase="51" BlockType="CMotionProcess"/>
+    </ITEM>
+    <ITEM EqRes="1.2795198908450913E-006" Iters="1" Step="150" Name="Velocity" IsOBL="0" MaxEqRes="3.3017982757630179E-006" LinRes="9.0108376284134654E-009">
+      <Var Size="3" IDModel="32" IDVar="VEL" IDPhase="51" BlockType="CMotionProcess"/>
+    </ITEM>
+  </eqResiduals>
   <stopperData/>
   <variableData/>
   <OBJECT class="CActivationStatus" myid="0">
     <Context>*-2.-2.-97.-3</Context>
     <StructPath>Activation</StructPath>
-    <LastTime>0</LastTime>
-    <LastIter>-1</LastIter>
+    <LastTime>44700000</LastTime>
+    <LastIter>149</LastIter>
   </OBJECT>
   <OBJECT class="CActivationStatus" myid="1">
     <Context>*-2.-2.-97.-2</Context>
     <StructPath>Activation</StructPath>
-    <LastTime>0</LastTime>
-    <LastIter>-1</LastIter>
+    <LastTime>44700000</LastTime>
+    <LastIter>149</LastIter>
   </OBJECT>
   <OBJECT class="CActivationStatus" myid="2">
     <Context>*-2.-2.1.-2</Context>
@@ -37,8 +44,8 @@
   <OBJECT class="CActivationStatus" myid="5">
     <Context>*-2.-2.-97.-5</Context>
     <StructPath>Activation</StructPath>
-    <LastTime>0</LastTime>
-    <LastIter>-1</LastIter>
+    <LastTime>44700000</LastTime>
+    <LastIter>149</LastIter>
   </OBJECT>
   <OBJECT class="CActivationStatus" myid="6">
     <Context>*-2.-2.2.-2</Context>

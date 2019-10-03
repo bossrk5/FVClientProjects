@@ -254,12 +254,19 @@
       <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
       <OBJECT class="CFvValueConstant" Constant="0" myid="7"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="8"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="10"/>
     </OBJECT>
     <OBJECT class="CFvValueConstant" Constant="0" myid="6"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="7"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="9"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="11"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="12"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="13"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="14"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="15"/>
   </OBJECT>
   <OBJECT class="CSubregion" myid="2" UIName="Подобласть #0">
     <Kind>CALCULATE</Kind>
@@ -333,6 +340,8 @@
       </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
     </OBJECT>
     <OBJECT class="CBCondition" myid="71" UIName="ГУ стенки зад" Color="00808080">
       <Type>WALL</Type>
@@ -362,6 +371,8 @@
       </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
     </OBJECT>
     <OBJECT class="CBCondition" myid="76" UIName="ГУстенки низ" Color="00808080">
       <Type>WALL</Type>
@@ -386,11 +397,13 @@
       <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
       <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
-      <OBJECT class="CBVelWallSlip" myid="7">
-        <Variable>*-2.-2.32.29</Variable>
-      </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
+      <OBJECT class="CBVelWallNonSlip" myid="12">
+        <Variable>*-2.-2.32.29</Variable>
+      </OBJECT>
     </OBJECT>
     <OBJECT class="CBCondition" myid="81" UIName="ГУ стенки верх" Color="00808080">
       <Type>WALL</Type>
@@ -420,6 +433,8 @@
       </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
     </OBJECT>
     <OBJECT class="CBCondition" myid="86" UIName="ГУ выход" Color="00FF0000">
       <Type>FREEOUTLET</Type>
@@ -451,6 +466,8 @@
       </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
     </OBJECT>
     <OBJECT class="CBCondition" myid="91" UIName="ГУ вход" Color="000000FF">
       <Type>INLETOUTLET</Type>
@@ -482,12 +499,19 @@
       </OBJECT>
       <OBJECT class="CFvValueConstant" Constant="0" myid="8"/>
       <OBJECT class="CFvValueConstant" Constant="1" myid="9"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="10"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="11"/>
     </OBJECT>
     <OBJECT class="CFvValueConstant" Constant="0" myid="92"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="93"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="94"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="95"/>
     <OBJECT class="CFvValueConstant" Constant="0" myid="96"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="97"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="98"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="99"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="100"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="101"/>
   </OBJECT>
   <OBJECT class="CSubstance" myid="13" UIName="Вода_Жидкая">
     <Type>standart</Type>
