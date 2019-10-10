@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVINPUT AppVersion="FlowVision PrePostProcessor, version 3.11.01-W64 build 20190523 changeset 39055">
+  <LocalFrameRef>0</LocalFrameRef>
+  <Rotation>0</Rotation>
+  <Substances>
+    <ITEM>*.13</ITEM>
+  </Substances>
+  <Phases>
+    <ITEM>*.41</ITEM>
+  </Phases>
+  <Models>
+    <ITEM>*.69</ITEM>
+  </Models>
+  <localFRArray/>
+  <Modifiers/>
+  <SubRegions>
+    <ITEM>*.1</ITEM>
+    <ITEM>*.2</ITEM>
+  </SubRegions>
+  <Source>C:\Program Files (x86)\FlowVision-3.11.01\Tutorial\Samples\Geom\Gap_Channel.wrl</Source>
+  <Tolerance>1E-008</Tolerance>
+  <OBJECT class="CFvDllManager" myid="-101"/>
+  <OBJECT class="CRegionCharacteristics" myid="-99" GUID="4703060C-1F05-46F6-A600-FC7A95861AE6">
+    <Object>*-2.-2.0</Object>
+    <Settings>
+      <Mode>VOLUME</Mode>
+      <Parts/>
+    </Settings>
+    <normal x="0" y="0" z="0"/>
+    <EnclaveAnalysis VolThreshold="0" Enabled="0" SmallPolicy="KEEP"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+  </OBJECT>
+  <OBJECT class="CGeneralSettings" myid="-98">
+    <RefValue Temp="273" Pres="101000"/>
+    <Gravity>
+      <x Source="*.0"/>
+      <y Source="*.1"/>
+      <z Source="*.2"/>
+    </Gravity>
+    <GPOINT x="0" y="0" z="0"/>
+    <g_density>0</g_density>
+    <GLEVEL/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+  </OBJECT>
+  <OBJECT class="CGridParameters" myid="-97">
+    <OBJECT class="CGridLines" myid="-100">
+      <X>
+        <ITEM>-0</ITEM>
+        <ITEM>1.5999999999999999E-005</ITEM>
+        <ITEM>3.1999999999999999E-005</ITEM>
+        <ITEM>4.8000000000000001E-005</ITEM>
+        <ITEM>6.3999999999999997E-005</ITEM>
+        <ITEM>7.9999999999999993E-005</ITEM>
+        <ITEM>9.6000000000000002E-005</ITEM>
+        <ITEM>0.000112</ITEM>
+        <ITEM>0.00012799999999999999</ITEM>
+        <ITEM>0.000144</ITEM>
+        <ITEM>0.00015999999999999999</ITEM>
+        <ITEM>0.000176</ITEM>
+        <ITEM>0.000192</ITEM>
+        <ITEM>0.00020799999999999999</ITEM>
+        <ITEM>0.000224</ITEM>
+        <ITEM>0.00023999999999999998</ITEM>
+        <ITEM>0.00025599999999999999</ITEM>
+        <ITEM>0.000272</ITEM>
+        <ITEM>0.00028800000000000001</ITEM>
+        <ITEM>0.00030399999999999996</ITEM>
+        <ITEM>0.00031999999999999997</ITEM>
+        <ITEM>0.00033599999999999998</ITEM>
+        <ITEM>0.00035199999999999999</ITEM>
+        <ITEM>0.000368</ITEM>
+        <ITEM>0.00038400000000000001</ITEM>
+        <ITEM>0.00039999999999999996</ITEM>
+        <ITEM>0.00041599999999999997</ITEM>
+        <ITEM>0.00043199999999999998</ITEM>
+        <ITEM>0.00044799999999999999</ITEM>
+        <ITEM>0.000464</ITEM>
+        <ITEM>0.00047999999999999996</ITEM>
+        <ITEM>0.00049600000000000002</ITEM>
+        <ITEM>0.00051199999999999998</ITEM>
+        <ITEM>0.00052799999999999993</ITEM>
+        <ITEM>0.000544</ITEM>
+        <ITEM>0.00055999999999999995</ITEM>
+        <ITEM>0.00057600000000000001</ITEM>
+        <ITEM>0.00059199999999999997</ITEM>
+        <ITEM>0.00060799999999999993</ITEM>
+        <ITEM>0.00062399999999999999</ITEM>
+        <ITEM>0.00063999999999999994</ITEM>
+        <ITEM>0.00065600000000000001</ITEM>
+        <ITEM>0.00067199999999999996</ITEM>
+        <ITEM>0.00068799999999999992</ITEM>
+        <ITEM>0.00070399999999999998</ITEM>
+        <ITEM>0.00071999999999999994</ITEM>
+        <ITEM>0.000736</ITEM>
+        <ITEM>0.00075199999999999996</ITEM>
+        <ITEM>0.00076800000000000002</ITEM>
+        <ITEM>0.00078399999999999997</ITEM>
+        <ITEM>0.00079999999999999993</ITEM>
+        <ITEM>0.00081599999999999999</ITEM>
+        <ITEM>0.00083199999999999995</ITEM>
+        <ITEM>0.00084800000000000001</ITEM>
+        <ITEM>0.00086399999999999997</ITEM>
+        <ITEM>0.00087999999999999992</ITEM>
+        <ITEM>0.00089599999999999999</ITEM>
+        <ITEM>0.00091199999999999994</ITEM>
+        <ITEM>0.00092800000000000001</ITEM>
+        <ITEM>0.00094399999999999996</ITEM>
+        <ITEM>0.00095999999999999992</ITEM>
+        <ITEM>0.00097599999999999998</ITEM>
+        <ITEM>0.00099200000000000004</ITEM>
+        <ITEM>0.001008</ITEM>
+        <ITEM>0.001024</ITEM>
+        <ITEM>0.0010399999999999999</ITEM>
+        <ITEM>0.0010559999999999999</ITEM>
+        <ITEM>0.001072</ITEM>
+        <ITEM>0.001088</ITEM>
+        <ITEM>0.0011039999999999999</ITEM>
+        <ITEM>0.0011199999999999999</ITEM>
+        <ITEM>0.0011359999999999999</ITEM>
+        <ITEM>0.001152</ITEM>
+        <ITEM>0.001168</ITEM>
+        <ITEM>0.0011839999999999999</ITEM>
+        <ITEM>0.0011999999999999999</ITEM>
+        <ITEM>0.0012159999999999999</ITEM>
+        <ITEM>0.001232</ITEM>
+        <ITEM>0.001248</ITEM>
+        <ITEM>0.0012639999999999999</ITEM>
+        <ITEM>0.0012799999999999999</ITEM>
+        <ITEM>0.0012959999999999998</ITEM>
+        <ITEM>0.001312</ITEM>
+        <ITEM>0.001328</ITEM>
+        <ITEM>0.0013439999999999999</ITEM>
+        <ITEM>0.0013599999999999999</ITEM>
+        <ITEM>0.0013759999999999998</ITEM>
+        <ITEM>0.001392</ITEM>
+        <ITEM>0.001408</ITEM>
+        <ITEM>0.0014239999999999999</ITEM>
+        <ITEM>0.0014399999999999999</ITEM>
+        <ITEM>0.0014559999999999998</ITEM>
+        <ITEM>0.001472</ITEM>
+        <ITEM>0.001488</ITEM>
+        <ITEM>0.0015039999999999999</ITEM>
+        <ITEM>0.0015199999999999999</ITEM>
+        <ITEM>0.001536</ITEM>
+        <ITEM>0.001552</ITEM>
+        <ITEM>0.0015679999999999999</ITEM>
+        <ITEM>0.0015839999999999999</ITEM>
+        <ITEM>0.0015999999999999999</ITEM>
+        <ITEM>0.001616</ITEM>
+        <ITEM>0.001632</ITEM>
+        <ITEM>0.0016479999999999999</ITEM>
+        <ITEM>0.0016639999999999999</ITEM>
+        <ITEM>0.0016799999999999999</ITEM>
+        <ITEM>0.001696</ITEM>
+        <ITEM>0.001712</ITEM>
+        <ITEM>0.0017279999999999999</ITEM>
+        <ITEM>0.0017439999999999999</ITEM>
+        <ITEM>0.0017599999999999998</ITEM>
+        <ITEM>0.001776</ITEM>
+        <ITEM>0.001792</ITEM>
+        <ITEM>0.0018079999999999999</ITEM>
+        <ITEM>0.0018239999999999999</ITEM>
+        <ITEM>0.0018399999999999998</ITEM>
+        <ITEM>0.001856</ITEM>
+        <ITEM>0.001872</ITEM>
+        <ITEM>0.0018879999999999999</ITEM>
+        <ITEM>0.0019039999999999999</ITEM>
+        <ITEM>0.0019199999999999998</ITEM>
+        <ITEM>0.001936</ITEM>
+        <ITEM>0.001952</ITEM>
+        <ITEM>0.0019679999999999997</ITEM>
+        <ITEM>0.0019840000000000001</ITEM>
+        <ITEM>0.002</ITEM>
+        <ITEM>0.002016</ITEM>
+        <ITEM>0.002032</ITEM>
+        <ITEM>0.0020479999999999999</ITEM>
+        <ITEM>0.0020639999999999999</ITEM>
+        <ITEM>0.0020799999999999998</ITEM>
+        <ITEM>0.0020959999999999998</ITEM>
+        <ITEM>0.0021119999999999997</ITEM>
+        <ITEM>0.0021280000000000001</ITEM>
+        <ITEM>0.0021440000000000001</ITEM>
+        <ITEM>0.00216</ITEM>
+        <ITEM>0.002176</ITEM>
+        <ITEM>0.0021919999999999999</ITEM>
+        <ITEM>0.0022079999999999999</ITEM>
+        <ITEM>0.0022239999999999998</ITEM>
+        <ITEM>0.0022399999999999998</ITEM>
+        <ITEM>0.0022559999999999998</ITEM>
+        <ITEM>0.0022719999999999997</ITEM>
+        <ITEM>0.0022880000000000001</ITEM>
+        <ITEM>0.0023040000000000001</ITEM>
+        <ITEM>0.00232</ITEM>
+        <ITEM>0.002336</ITEM>
+        <ITEM>0.0023519999999999999</ITEM>
+        <ITEM>0.0023679999999999999</ITEM>
+        <ITEM>0.0023839999999999998</ITEM>
+        <ITEM>0.0023999999999999998</ITEM>
+        <ITEM>0.0024159999999999997</ITEM>
+        <ITEM>0.0024319999999999997</ITEM>
+        <ITEM>0.0024480000000000001</ITEM>
+        <ITEM>0.002464</ITEM>
+        <ITEM>0.00248</ITEM>
+        <ITEM>0.002496</ITEM>
+        <ITEM>0.0025119999999999999</ITEM>
+        <ITEM>0.0025279999999999999</ITEM>
+        <ITEM>0.0025439999999999998</ITEM>
+        <ITEM>0.0025599999999999998</ITEM>
+        <ITEM>0.0025759999999999997</ITEM>
+        <ITEM>0.0025919999999999997</ITEM>
+        <ITEM>0.0026080000000000001</ITEM>
+        <ITEM>0.002624</ITEM>
+        <ITEM>0.00264</ITEM>
+        <ITEM>0.0026559999999999999</ITEM>
+        <ITEM>0.0026719999999999999</ITEM>
+        <ITEM>0.0026879999999999999</ITEM>
+        <ITEM>0.0027039999999999998</ITEM>
+        <ITEM>0.0027199999999999998</ITEM>
+        <ITEM>0.0027359999999999997</ITEM>
+        <ITEM>0.0027519999999999997</ITEM>
+        <ITEM>0.0027680000000000001</ITEM>
+        <ITEM>0.002784</ITEM>
+        <ITEM>0.0028</ITEM>
+        <ITEM>0.0028159999999999999</ITEM>
+        <ITEM>0.0028319999999999999</ITEM>
+        <ITEM>0.0028479999999999998</ITEM>
+        <ITEM>0.0028639999999999998</ITEM>
+        <ITEM>0.0028799999999999997</ITEM>
+        <ITEM>0.0028959999999999997</ITEM>
+        <ITEM>0.0029119999999999997</ITEM>
+        <ITEM>0.002928</ITEM>
+        <ITEM>0.002944</ITEM>
+        <ITEM>0.00296</ITEM>
+        <ITEM>0.0029759999999999999</ITEM>
+        <ITEM>0.0029919999999999999</ITEM>
+        <ITEM>0.0030079999999999998</ITEM>
+        <ITEM>0.0030239999999999998</ITEM>
+        <ITEM>0.0030399999999999997</ITEM>
+        <ITEM>0.0030559999999999997</ITEM>
+        <ITEM>0.0030720000000000001</ITEM>
+        <ITEM>0.003088</ITEM>
+        <ITEM>0.003104</ITEM>
+        <ITEM>0.0031199999999999999</ITEM>
+        <ITEM>0.0031359999999999999</ITEM>
+        <ITEM>0.0031519999999999999</ITEM>
+        <ITEM>0.0031679999999999998</ITEM>
+        <ITEM>0.0031839999999999998</ITEM>
+        <ITEM>0.0031999999999999997</ITEM>
+        <ITEM>0.0032159999999999997</ITEM>
+        <ITEM>0.0032320000000000001</ITEM>
+        <ITEM>0.003248</ITEM>
+        <ITEM>0.003264</ITEM>
+        <ITEM>0.0032799999999999999</ITEM>
+        <ITEM>0.0032959999999999999</ITEM>
+        <ITEM>0.0033119999999999998</ITEM>
+        <ITEM>0.0033279999999999998</ITEM>
+        <ITEM>0.0033439999999999998</ITEM>
+        <ITEM>0.0033599999999999997</ITEM>
+        <ITEM>0.0033759999999999997</ITEM>
+        <ITEM>0.003392</ITEM>
+        <ITEM>0.003408</ITEM>
+        <ITEM>0.003424</ITEM>
+        <ITEM>0.0034399999999999999</ITEM>
+        <ITEM>0.0034559999999999999</ITEM>
+        <ITEM>0.0034719999999999998</ITEM>
+        <ITEM>0.0034879999999999998</ITEM>
+        <ITEM>0.0035039999999999997</ITEM>
+        <ITEM>0.0035199999999999997</ITEM>
+        <ITEM>0.0035359999999999996</ITEM>
+        <ITEM>0.003552</ITEM>
+        <ITEM>0.003568</ITEM>
+        <ITEM>0.0035839999999999999</ITEM>
+        <ITEM>0.0035999999999999999</ITEM>
+        <ITEM>0.0036159999999999999</ITEM>
+        <ITEM>0.0036319999999999998</ITEM>
+        <ITEM>0.0036479999999999998</ITEM>
+        <ITEM>0.0036639999999999997</ITEM>
+        <ITEM>0.0036799999999999997</ITEM>
+        <ITEM>0.0036959999999999996</ITEM>
+        <ITEM>0.003712</ITEM>
+        <ITEM>0.003728</ITEM>
+        <ITEM>0.0037439999999999999</ITEM>
+        <ITEM>0.0037599999999999999</ITEM>
+        <ITEM>0.0037759999999999998</ITEM>
+        <ITEM>0.0037919999999999998</ITEM>
+        <ITEM>0.0038079999999999998</ITEM>
+        <ITEM>0.0038239999999999997</ITEM>
+        <ITEM>0.0038399999999999997</ITEM>
+        <ITEM>0.0038559999999999996</ITEM>
+        <ITEM>0.003872</ITEM>
+        <ITEM>0.003888</ITEM>
+        <ITEM>0.0039039999999999999</ITEM>
+        <ITEM>0.0039199999999999999</ITEM>
+        <ITEM>0.0039359999999999994</ITEM>
+        <ITEM>0.0039519999999999998</ITEM>
+        <ITEM>0.0039680000000000002</ITEM>
+        <ITEM>0.0039839999999999997</ITEM>
+        <ITEM>0.0040000000000000001</ITEM>
+        <ITEM>0.0040159999999999996</ITEM>
+        <ITEM>0.004032</ITEM>
+        <ITEM>0.0040479999999999995</ITEM>
+        <ITEM>0.0040639999999999999</ITEM>
+        <ITEM>0.0040799999999999994</ITEM>
+        <ITEM>0.0040959999999999998</ITEM>
+        <ITEM>0.0041120000000000002</ITEM>
+        <ITEM>0.0041279999999999997</ITEM>
+        <ITEM>0.0041440000000000001</ITEM>
+        <ITEM>0.0041599999999999996</ITEM>
+        <ITEM>0.004176</ITEM>
+        <ITEM>0.0041919999999999995</ITEM>
+        <ITEM>0.0042079999999999999</ITEM>
+        <ITEM>0.0042239999999999995</ITEM>
+        <ITEM>0.0042399999999999998</ITEM>
+        <ITEM>0.0042560000000000002</ITEM>
+        <ITEM>0.0042719999999999998</ITEM>
+        <ITEM>0.0042880000000000001</ITEM>
+        <ITEM>0.0043039999999999997</ITEM>
+        <ITEM>0.0043200000000000001</ITEM>
+        <ITEM>0.0043359999999999996</ITEM>
+        <ITEM>0.004352</ITEM>
+        <ITEM>0.0043679999999999995</ITEM>
+        <ITEM>0.0043839999999999999</ITEM>
+        <ITEM>0.0043999999999999994</ITEM>
+        <ITEM>0.0044159999999999998</ITEM>
+        <ITEM>0.0044320000000000002</ITEM>
+        <ITEM>0.0044479999999999997</ITEM>
+        <ITEM>0.0044640000000000001</ITEM>
+        <ITEM>0.0044799999999999996</ITEM>
+        <ITEM>0.004496</ITEM>
+        <ITEM>0.0045119999999999995</ITEM>
+        <ITEM>0.0045279999999999999</ITEM>
+        <ITEM>0.0045439999999999994</ITEM>
+        <ITEM>0.0045599999999999998</ITEM>
+        <ITEM>0.0045760000000000002</ITEM>
+        <ITEM>0.0045919999999999997</ITEM>
+        <ITEM>0.0046080000000000001</ITEM>
+        <ITEM>0.0046239999999999996</ITEM>
+        <ITEM>0.00464</ITEM>
+        <ITEM>0.0046559999999999995</ITEM>
+        <ITEM>0.0046719999999999999</ITEM>
+        <ITEM>0.0046879999999999995</ITEM>
+        <ITEM>0.0047039999999999998</ITEM>
+        <ITEM>0.0047199999999999994</ITEM>
+        <ITEM>0.0047359999999999998</ITEM>
+        <ITEM>0.0047520000000000001</ITEM>
+        <ITEM>0.0047679999999999997</ITEM>
+        <ITEM>0.0047840000000000001</ITEM>
+        <ITEM>0.0047999999999999996</ITEM>
+        <ITEM>0.004816</ITEM>
+        <ITEM>0.0048319999999999995</ITEM>
+        <ITEM>0.0048479999999999999</ITEM>
+        <ITEM>0.0048639999999999994</ITEM>
+        <ITEM>0.0048799999999999998</ITEM>
+        <ITEM>0.0048960000000000002</ITEM>
+        <ITEM>0.0049119999999999997</ITEM>
+        <ITEM>0.0049280000000000001</ITEM>
+        <ITEM>0.0049439999999999996</ITEM>
+        <ITEM>0.00496</ITEM>
+        <ITEM>0.0049759999999999995</ITEM>
+        <ITEM>0.0049919999999999999</ITEM>
+        <ITEM>0.0050079999999999994</ITEM>
+        <ITEM>0.0050239999999999998</ITEM>
+        <ITEM>0.0050399999999999993</ITEM>
+        <ITEM>0.0050559999999999997</ITEM>
+        <ITEM>0.0050720000000000001</ITEM>
+        <ITEM>0.0050879999999999996</ITEM>
+        <ITEM>0.005104</ITEM>
+        <ITEM>0.0051199999999999996</ITEM>
+        <ITEM>0.0051359999999999999</ITEM>
+        <ITEM>0.0051519999999999995</ITEM>
+        <ITEM>0.0051679999999999999</ITEM>
+        <ITEM>0.0051839999999999994</ITEM>
+        <ITEM>0.0051999999999999998</ITEM>
+        <ITEM>0.0052160000000000002</ITEM>
+        <ITEM>0.0052319999999999997</ITEM>
+        <ITEM>0.0052480000000000001</ITEM>
+        <ITEM>0.0052639999999999996</ITEM>
+        <ITEM>0.00528</ITEM>
+        <ITEM>0.0052959999999999995</ITEM>
+        <ITEM>0.0053119999999999999</ITEM>
+        <ITEM>0.0053279999999999994</ITEM>
+        <ITEM>0.0053439999999999998</ITEM>
+        <ITEM>0.0053600000000000002</ITEM>
+        <ITEM>0.0053759999999999997</ITEM>
+        <ITEM>0.0053920000000000001</ITEM>
+        <ITEM>0.0054079999999999996</ITEM>
+        <ITEM>0.005424</ITEM>
+        <ITEM>0.0054399999999999995</ITEM>
+        <ITEM>0.0054559999999999999</ITEM>
+        <ITEM>0.0054719999999999994</ITEM>
+        <ITEM>0.0054879999999999998</ITEM>
+        <ITEM>0.0055039999999999993</ITEM>
+        <ITEM>0.0055199999999999997</ITEM>
+        <ITEM>0.0055360000000000001</ITEM>
+        <ITEM>0.0055519999999999996</ITEM>
+        <ITEM>0.005568</ITEM>
+        <ITEM>0.0055839999999999996</ITEM>
+        <ITEM>0.0055999999999999999</ITEM>
+        <ITEM>0.0056159999999999995</ITEM>
+        <ITEM>0.0056319999999999999</ITEM>
+        <ITEM>0.0056479999999999994</ITEM>
+        <ITEM>0.0056639999999999998</ITEM>
+        <ITEM>0.0056800000000000002</ITEM>
+        <ITEM>0.0056959999999999997</ITEM>
+        <ITEM>0.0057120000000000001</ITEM>
+        <ITEM>0.0057279999999999996</ITEM>
+        <ITEM>0.005744</ITEM>
+        <ITEM>0.0057599999999999995</ITEM>
+        <ITEM>0.0057759999999999999</ITEM>
+        <ITEM>0.0057919999999999994</ITEM>
+        <ITEM>0.0058079999999999998</ITEM>
+        <ITEM>0.0058239999999999993</ITEM>
+        <ITEM>0.0058399999999999997</ITEM>
+        <ITEM>0.0058560000000000001</ITEM>
+        <ITEM>0.0058719999999999996</ITEM>
+        <ITEM>0.005888</ITEM>
+        <ITEM>0.0059039999999999995</ITEM>
+        <ITEM>0.0059199999999999999</ITEM>
+        <ITEM>0.0059359999999999994</ITEM>
+        <ITEM>0.0059519999999999998</ITEM>
+        <ITEM>0.0059679999999999993</ITEM>
+        <ITEM>0.0059839999999999997</ITEM>
+        <ITEM>0.0060000000000000001</ITEM>
+        <ITEM>0.0060159999999999996</ITEM>
+        <ITEM>0.006032</ITEM>
+        <ITEM>0.0060479999999999996</ITEM>
+        <ITEM>0.0060639999999999999</ITEM>
+        <ITEM>0.0060799999999999995</ITEM>
+        <ITEM>0.0060959999999999999</ITEM>
+        <ITEM>0.0061119999999999994</ITEM>
+        <ITEM>0.0061279999999999998</ITEM>
+        <ITEM>0.0061440000000000002</ITEM>
+        <ITEM>0.0061599999999999997</ITEM>
+        <ITEM>0.0061760000000000001</ITEM>
+        <ITEM>0.0061919999999999996</ITEM>
+        <ITEM>0.006208</ITEM>
+        <ITEM>0.0062239999999999995</ITEM>
+        <ITEM>0.0062399999999999999</ITEM>
+        <ITEM>0.0062559999999999994</ITEM>
+        <ITEM>0.0062719999999999998</ITEM>
+        <ITEM>0.0062879999999999993</ITEM>
+        <ITEM>0.0063039999999999997</ITEM>
+        <ITEM>0.0063200000000000001</ITEM>
+        <ITEM>0.0063359999999999996</ITEM>
+        <ITEM>0.006352</ITEM>
+        <ITEM>0.0063679999999999995</ITEM>
+        <ITEM>0.0063839999999999999</ITEM>
+        <ITEM>0.0063999999999999994</ITEM>
+        <ITEM>0.0064159999999999998</ITEM>
+        <ITEM>0.0064319999999999993</ITEM>
+        <ITEM>0.0064479999999999997</ITEM>
+        <ITEM>0.0064640000000000001</ITEM>
+        <ITEM>0.0064799999999999996</ITEM>
+        <ITEM>0.006496</ITEM>
+        <ITEM>0.0065119999999999996</ITEM>
+        <ITEM>0.0065279999999999999</ITEM>
+        <ITEM>0.0065439999999999995</ITEM>
+        <ITEM>0.0065599999999999999</ITEM>
+        <ITEM>0.0065759999999999994</ITEM>
+        <ITEM>0.0065919999999999998</ITEM>
+        <ITEM>0.0066079999999999993</ITEM>
+        <ITEM>0.0066239999999999997</ITEM>
+        <ITEM>0.0066400000000000001</ITEM>
+        <ITEM>0.0066559999999999996</ITEM>
+        <ITEM>0.006672</ITEM>
+        <ITEM>0.0066879999999999995</ITEM>
+        <ITEM>0.0067039999999999999</ITEM>
+        <ITEM>0.0067199999999999994</ITEM>
+        <ITEM>0.0067359999999999998</ITEM>
+        <ITEM>0.0067519999999999993</ITEM>
+        <ITEM>0.0067679999999999997</ITEM>
+        <ITEM>0.0067840000000000001</ITEM>
+        <ITEM>0.0067999999999999996</ITEM>
+        <ITEM>0.006816</ITEM>
+        <ITEM>0.0068319999999999995</ITEM>
+        <ITEM>0.0068479999999999999</ITEM>
+        <ITEM>0.0068639999999999994</ITEM>
+        <ITEM>0.0068799999999999998</ITEM>
+        <ITEM>0.0068959999999999994</ITEM>
+        <ITEM>0.0069119999999999997</ITEM>
+        <ITEM>0.0069279999999999993</ITEM>
+        <ITEM>0.0069439999999999997</ITEM>
+        <ITEM>0.00696</ITEM>
+        <ITEM>0.0069759999999999996</ITEM>
+        <ITEM>0.006992</ITEM>
+        <ITEM>0.0070079999999999995</ITEM>
+        <ITEM>0.0070239999999999999</ITEM>
+        <ITEM>0.0070399999999999994</ITEM>
+        <ITEM>0.0070559999999999998</ITEM>
+        <ITEM>0.0070719999999999993</ITEM>
+        <ITEM>0.0070879999999999997</ITEM>
+        <ITEM>0.0071040000000000001</ITEM>
+        <ITEM>0.0071199999999999996</ITEM>
+        <ITEM>0.007136</ITEM>
+        <ITEM>0.0071519999999999995</ITEM>
+        <ITEM>0.0071679999999999999</ITEM>
+        <ITEM>0.0071839999999999994</ITEM>
+        <ITEM>0.0071999999999999998</ITEM>
+        <ITEM>0.0072159999999999993</ITEM>
+        <ITEM>0.0072319999999999997</ITEM>
+        <ITEM>0.0072480000000000001</ITEM>
+        <ITEM>0.0072639999999999996</ITEM>
+        <ITEM>0.00728</ITEM>
+        <ITEM>0.0072959999999999995</ITEM>
+        <ITEM>0.0073119999999999999</ITEM>
+        <ITEM>0.0073279999999999994</ITEM>
+        <ITEM>0.0073439999999999998</ITEM>
+        <ITEM>0.0073599999999999994</ITEM>
+        <ITEM>0.0073759999999999997</ITEM>
+        <ITEM>0.0073919999999999993</ITEM>
+        <ITEM>0.0074079999999999997</ITEM>
+        <ITEM>0.007424</ITEM>
+        <ITEM>0.0074399999999999996</ITEM>
+        <ITEM>0.007456</ITEM>
+        <ITEM>0.0074719999999999995</ITEM>
+        <ITEM>0.0074879999999999999</ITEM>
+        <ITEM>0.0075039999999999994</ITEM>
+        <ITEM>0.0075199999999999998</ITEM>
+        <ITEM>0.0075359999999999993</ITEM>
+        <ITEM>0.0075519999999999997</ITEM>
+        <ITEM>0.0075680000000000001</ITEM>
+        <ITEM>0.0075839999999999996</ITEM>
+        <ITEM>0.0076</ITEM>
+        <ITEM>0.0076159999999999995</ITEM>
+        <ITEM>0.0076319999999999999</ITEM>
+        <ITEM>0.0076479999999999994</ITEM>
+        <ITEM>0.0076639999999999998</ITEM>
+        <ITEM>0.0076799999999999993</ITEM>
+        <ITEM>0.0076959999999999997</ITEM>
+        <ITEM>0.0077119999999999992</ITEM>
+        <ITEM>0.0077279999999999996</ITEM>
+        <ITEM>0.007744</ITEM>
+        <ITEM>0.0077599999999999995</ITEM>
+        <ITEM>0.0077759999999999999</ITEM>
+        <ITEM>0.0077919999999999994</ITEM>
+        <ITEM>0.0078079999999999998</ITEM>
+        <ITEM>0.0078239999999999994</ITEM>
+        <ITEM>0.0078399999999999997</ITEM>
+        <ITEM>0.0078560000000000001</ITEM>
+        <ITEM>0.0078719999999999988</ITEM>
+        <ITEM>0.0078879999999999992</ITEM>
+        <ITEM>0.0079039999999999996</ITEM>
+        <ITEM>0.00792</ITEM>
+        <ITEM>0.0079360000000000003</ITEM>
+        <ITEM>0.007951999999999999</ITEM>
+        <ITEM>0.0079679999999999994</ITEM>
+        <ITEM>0.0079839999999999998</ITEM>
+        <ITEM>0.0080000000000000002</ITEM>
+      </X>
+      <Y>
+        <ITEM>-0.001</ITEM>
+        <ITEM>-0.00098999999999999999</ITEM>
+        <ITEM>-0.00097999999999999997</ITEM>
+        <ITEM>-0.00097000000000000005</ITEM>
+        <ITEM>-0.00096000000000000002</ITEM>
+        <ITEM>-0.00095</ITEM>
+        <ITEM>-0.00093999999999999997</ITEM>
+        <ITEM>-0.00093000000000000005</ITEM>
+        <ITEM>-0.00092000000000000003</ITEM>
+        <ITEM>-0.00091</ITEM>
+        <ITEM>-0.00089999999999999998</ITEM>
+        <ITEM>-0.00089000000000000006</ITEM>
+        <ITEM>-0.00088000000000000003</ITEM>
+        <ITEM>-0.00087000000000000001</ITEM>
+        <ITEM>-0.00085999999999999998</ITEM>
+        <ITEM>-0.00085000000000000006</ITEM>
+        <ITEM>-0.00084000000000000003</ITEM>
+        <ITEM>-0.00083000000000000001</ITEM>
+        <ITEM>-0.00081999999999999998</ITEM>
+        <ITEM>-0.00080999999999999996</ITEM>
+        <ITEM>-0.00080000000000000004</ITEM>
+        <ITEM>-0.00079000000000000001</ITEM>
+        <ITEM>-0.00077999999999999999</ITEM>
+        <ITEM>-0.00077000000000000007</ITEM>
+        <ITEM>-0.00076000000000000004</ITEM>
+        <ITEM>-0.00075000000000000002</ITEM>
+        <ITEM>-0.00073999999999999999</ITEM>
+        <ITEM>-0.00072999999999999996</ITEM>
+        <ITEM>-0.00071999999999999994</ITEM>
+        <ITEM>-0.00071000000000000002</ITEM>
+        <ITEM>-0.00069999999999999999</ITEM>
+        <ITEM>-0.00069000000000000008</ITEM>
+        <ITEM>-0.00068000000000000005</ITEM>
+        <ITEM>-0.00067000000000000002</ITEM>
+        <ITEM>-0.00066</ITEM>
+        <ITEM>-0.00064999999999999997</ITEM>
+        <ITEM>-0.00063999999999999994</ITEM>
+        <ITEM>-0.00062999999999999992</ITEM>
+        <ITEM>-0.00062</ITEM>
+        <ITEM>-0.00060999999999999997</ITEM>
+        <ITEM>-0.00060000000000000006</ITEM>
+        <ITEM>-0.00059000000000000003</ITEM>
+        <ITEM>-0.00058</ITEM>
+        <ITEM>-0.00056999999999999998</ITEM>
+        <ITEM>-0.00055999999999999995</ITEM>
+        <ITEM>-0.00054999999999999992</ITEM>
+        <ITEM>-0.00054000000000000001</ITEM>
+        <ITEM>-0.00052999999999999998</ITEM>
+        <ITEM>-0.00051999999999999995</ITEM>
+        <ITEM>-0.00050999999999999993</ITEM>
+        <ITEM>-0.00050000000000000001</ITEM>
+        <ITEM>-0.00048999999999999998</ITEM>
+        <ITEM>-0.00047999999999999996</ITEM>
+        <ITEM>-0.00046999999999999993</ITEM>
+        <ITEM>-0.00046000000000000001</ITEM>
+        <ITEM>-0.00044999999999999999</ITEM>
+        <ITEM>-0.00043999999999999996</ITEM>
+        <ITEM>-0.00042999999999999994</ITEM>
+        <ITEM>-0.00042000000000000002</ITEM>
+        <ITEM>-0.00040999999999999999</ITEM>
+        <ITEM>-0.00039999999999999996</ITEM>
+        <ITEM>-0.00038999999999999994</ITEM>
+        <ITEM>-0.00038000000000000002</ITEM>
+        <ITEM>-0.00036999999999999999</ITEM>
+        <ITEM>-0.00035999999999999997</ITEM>
+        <ITEM>-0.00034999999999999994</ITEM>
+        <ITEM>-0.00033999999999999992</ITEM>
+        <ITEM>-0.00033</ITEM>
+        <ITEM>-0.00031999999999999997</ITEM>
+        <ITEM>-0.00030999999999999995</ITEM>
+        <ITEM>-0.00029999999999999992</ITEM>
+        <ITEM>-0.00029</ITEM>
+        <ITEM>-0.00027999999999999998</ITEM>
+        <ITEM>-0.00026999999999999995</ITEM>
+        <ITEM>-0.00025999999999999992</ITEM>
+        <ITEM>-0.00025000000000000001</ITEM>
+        <ITEM>-0.00023999999999999998</ITEM>
+        <ITEM>-0.00022999999999999995</ITEM>
+        <ITEM>-0.00021999999999999993</ITEM>
+        <ITEM>-0.00021000000000000001</ITEM>
+        <ITEM>-0.00019999999999999998</ITEM>
+        <ITEM>-0.00018999999999999996</ITEM>
+        <ITEM>-0.00017999999999999993</ITEM>
+        <ITEM>-0.0001699999999999999</ITEM>
+        <ITEM>-0.00015999999999999999</ITEM>
+        <ITEM>-0.00014999999999999996</ITEM>
+        <ITEM>-0.00013999999999999993</ITEM>
+        <ITEM>-0.00012999999999999991</ITEM>
+        <ITEM>-0.00011999999999999999</ITEM>
+        <ITEM>-0.00010999999999999996</ITEM>
+        <ITEM>-9.9999999999999937E-005</ITEM>
+        <ITEM>-8.9999999999999911E-005</ITEM>
+        <ITEM>-7.9999999999999993E-005</ITEM>
+        <ITEM>-6.9999999999999967E-005</ITEM>
+        <ITEM>-5.9999999999999941E-005</ITEM>
+        <ITEM>-4.9999999999999914E-005</ITEM>
+        <ITEM>-3.9999999999999888E-005</ITEM>
+        <ITEM>-2.999999999999997E-005</ITEM>
+        <ITEM>-1.9999999999999836E-005</ITEM>
+        <ITEM>-1.0000000000000026E-005</ITEM>
+        <ITEM>0</ITEM>
+      </Y>
+      <Z>
+        <ITEM>0</ITEM>
+        <ITEM>0.0001</ITEM>
+      </Z>
+      <editorData/>
+    </OBJECT>
+    <OBJECT class="CAdpArrayToCond" myid="-5">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="COBLArray" myid="-4">
+      <Activation>
+        <Type>PERMANENT</Type>
+        <IterStart>0</IterStart>
+        <TimeStart>0</TimeStart>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdpArrayToSolution" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+      <cellCount Source="*.0"/>
+      <SubWeights>
+        <ITEM>1</ITEM>
+        <ITEM>1</ITEM>
+      </SubWeights>
+      <OBJECT class="CFvValueConstant" Constant="5000" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CAdpArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CBinderLinks" myid="-96">
+    <BinderConditions/>
+    <Binders/>
+    <FreeBConds/>
+  </OBJECT>
+  <OBJECT Debug="0" class="CExternalInteractions" myid="-95">
+    <ExchangeTime>
+      <Type>*.-2</Type>
+      <UserStep Source="*.0"/>
+      <UndefStep>0.001</UndefStep>
+      <StepCoef Source="*.1"/>
+    </ExchangeTime>
+    <OldOffsetMethod>1</OldOffsetMethod>
+    <SaveAfterReceive>0</SaveAfterReceive>
+    <Interactions/>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-4">
+      <InterSurfaces/>
+      <Type>2</Type>
+    </OBJECT>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-3">
+      <InterSurfaces/>
+      <Type>1</Type>
+    </OBJECT>
+    <OBJECT class="CMPMInterInternal" Active="1" myid="-2">
+      <InterSurfaces/>
+      <Type>0</Type>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0.01" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="1" myid="1"/>
+  </OBJECT>
+  <OBJECT class="CSpaceEntity" myid="0" GUID="61556E32-9E82-4AB2-8E09-3BC9036B22D1"/>
+  <OBJECT class="CSubregion" myid="1" UIName="Outside">
+    <Kind>OUTSIDE</Kind>
+    <Model>0</Model>
+    <LocalFrameRef>0</LocalFrameRef>
+    <Rotation>0</Rotation>
+    <BConditions>
+      <ITEM>*.5</ITEM>
+    </BConditions>
+    <Filters/>
+    <InitialData/>
+    <OBJECT class="CAdaptArrayToSolution" maxLevel="1" cellCount="5000" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdaptArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="3"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="4"/>
+    <OBJECT class="CBCondition" myid="5" UIName="ГУ #0" Color="00808080">
+      <Type>WALL</Type>
+      <WallTypes/>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CSubregion" myid="2" UIName="Подобласть #0">
+    <Kind>CALCULATE</Kind>
+    <Model>*-2.-2.69</Model>
+    <LocalFrameRef>0</LocalFrameRef>
+    <Rotation>0</Rotation>
+    <BConditions>
+      <ITEM>*.61</ITEM>
+      <ITEM>*.66</ITEM>
+      <ITEM>*.80</ITEM>
+      <ITEM>*.85</ITEM>
+      <ITEM>*.90</ITEM>
+    </BConditions>
+    <Filters/>
+    <InitialData>
+      <ITEM>*.56</ITEM>
+    </InitialData>
+    <OBJECT class="CAdaptArrayToSolution" maxLevel="1" cellCount="5000" myid="-3">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CAdaptArray" myid="-2">
+      <Activation>
+        <Kind>PERMANENT</Kind>
+        <TimeStart>0</TimeStart>
+        <TimeDuration>0</TimeDuration>
+        <TimePeriod>0</TimePeriod>
+        <IterStart>1</IterStart>
+        <IterDuration>1</IterDuration>
+        <IterPeriod>1</IterPeriod>
+      </Activation>
+      <Criteria/>
+    </OBJECT>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="3"/>
+    <OBJECT class="CFvValueConstant" Constant="0" myid="4"/>
+    <OBJECT class="CIniDataTri" myid="56" GUID="5FD05BFD-89C7-4FED-8DFA-5F6488EC02D3" UIName="Нач. условие #0">
+      <ViewObject>*-2.-2.0</ViewObject>
+      <IniData>*-2.-2.69.0</IniData>
+    </OBJECT>
+    <OBJECT class="CBCondition" myid="61" UIName="Верхняя стенка" Color="00808000">
+      <Type>WALL</Type>
+      <WallTypes>
+        <ITEM>WALLFUNC_EQUIL</ITEM>
+      </WallTypes>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+      <OBJECT class="CBVelWallNonSlip" myid="7">
+        <Variable>*-2.-2.69.39</Variable>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CBCondition" myid="66" UIName="Нижняя стенка" Color="00808000">
+      <Type>WALL</Type>
+      <WallTypes>
+        <ITEM>WALLFUNC_EQUIL</ITEM>
+      </WallTypes>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+      <OBJECT class="CBVelWallNonSlip" myid="7">
+        <Variable>*-2.-2.69.39</Variable>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CBCondition" myid="80" UIName="Симметрия" Color="00808080">
+      <Type>SYMMETRY</Type>
+      <WallTypes>
+        <ITEM>WALLFUNC_EQUIL</ITEM>
+      </WallTypes>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+      <OBJECT class="CBVelWallSlip" myid="7">
+        <Variable>*-2.-2.69.39</Variable>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CBCondition" myid="85" UIName="Вход левый" Color="00FF0000">
+      <Type>INLETOUTLET</Type>
+      <WallTypes>
+        <ITEM>WALLFUNC_EQUIL</ITEM>
+      </WallTypes>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+      <OBJECT class="CBVelMassNormal" myid="7">
+        <Variable>*-2.-2.69.39</Variable>
+        <NormMassVel Source="*.0"/>
+        <OBJECT class="CFvValueConstant" Constant="10" myid="0"/>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CBCondition" myid="90" UIName="Выход свободный" Color="000000FF">
+      <Type>FREEOUTLET</Type>
+      <WallTypes>
+        <ITEM>WALLFUNC_EQUIL</ITEM>
+      </WallTypes>
+      <Roughness Source="*.1"/>
+      <Wetangle Source="*.2"/>
+      <GapSealing Source="*.4"/>
+      <AlphaWall Source="*.0"/>
+      <GapThermalConductance Source="*.3"/>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <NumberOfSectors>0</NumberOfSectors>
+      <BinderCondition>0</BinderCondition>
+      <Binder>0</Binder>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueConstant" Constant="90" myid="2"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="3"/>
+      <OBJECT class="CFvValueConstant" Constant="-1" myid="4"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="5"/>
+      <OBJECT class="CFvValueConstant" Constant="1" myid="6"/>
+      <OBJECT class="CBVelOutlet" myid="7">
+        <Variable>*-2.-2.69.39</Variable>
+        <Pressure Source="*.0"/>
+        <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+      </OBJECT>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CSubstance" myid="13" UIName="Вода_Жидкая">
+    <Type>standart</Type>
+    <State>liquid</State>
+    <OBJECT class="CSubstanceProperty" myid="0" Number="0">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="101325">
+            <Table>
+              <ITEM arg="273.14999999999998" value="0.018015280000000002"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstancePropertyDens" myid="1" Number="1">
+      <Value Source="*.2"/>
+      <dRodP Source="*.0"/>
+      <dRodT Source="*.1"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+      <OBJECT class="CFvValueTablePT" myid="2">
+        <Table>
+          <ITEM arg="101325">
+            <Table>
+              <ITEM arg="273.14999999999998" value="999.84100000000001"/>
+              <ITEM arg="274.14999999999998" value="999.89999999999998"/>
+              <ITEM arg="275.14999999999998" value="999.94100000000003"/>
+              <ITEM arg="276.14999999999998" value="999.96500000000003"/>
+              <ITEM arg="277.14999999999998" value="999.97299999999996"/>
+              <ITEM arg="278.14999999999998" value="999.96500000000003"/>
+              <ITEM arg="279.14999999999998" value="999.94100000000003"/>
+              <ITEM arg="280.14999999999998" value="999.90899999999999"/>
+              <ITEM arg="281.14999999999998" value="999.84900000000005"/>
+              <ITEM arg="282.14999999999998" value="999.78200000000004"/>
+              <ITEM arg="283.14999999999998" value="999.70100000000002"/>
+              <ITEM arg="284.14999999999998" value="999.60599999999999"/>
+              <ITEM arg="285.14999999999998" value="999.49800000000005"/>
+              <ITEM arg="286.14999999999998" value="999.37699999999995"/>
+              <ITEM arg="287.14999999999998" value="999.24400000000003"/>
+              <ITEM arg="288.14999999999998" value="999.09900000000005"/>
+              <ITEM arg="289.14999999999998" value="998.94299999999998"/>
+              <ITEM arg="290.14999999999998" value="998.77499999999998"/>
+              <ITEM arg="291.14999999999998" value="998.596"/>
+              <ITEM arg="292.14999999999998" value="998.40599999999995"/>
+              <ITEM arg="293.14999999999998" value="998.20500000000004"/>
+              <ITEM arg="294.14999999999998" value="997.99400000000003"/>
+              <ITEM arg="295.14999999999998" value="997.77200000000005"/>
+              <ITEM arg="296.14999999999998" value="997.53999999999996"/>
+              <ITEM arg="297.14999999999998" value="997.29899999999998"/>
+              <ITEM arg="298.14999999999998" value="997.04700000000003"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="2" Number="2">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="101325">
+            <Table>
+              <ITEM arg="273.14999999999998" value="0.00182"/>
+              <ITEM arg="283.14999999999998" value="0.00133"/>
+              <ITEM arg="293.14999999999998" value="0.0010200000000000001"/>
+              <ITEM arg="303.14999999999998" value="0.00081700000000000002"/>
+              <ITEM arg="313.14999999999998" value="0.00066600000000000003"/>
+              <ITEM arg="323.14999999999998" value="0.00055999999999999995"/>
+              <ITEM arg="333.14999999999998" value="0.00047899999999999999"/>
+              <ITEM arg="343.14999999999998" value="0.00041399999999999998"/>
+              <ITEM arg="353.14999999999998" value="0.00036200000000000002"/>
+              <ITEM arg="363.14999999999998" value="0.000321"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="3" Number="3">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="101325">
+            <Table>
+              <ITEM arg="273.15010000000001" value="0.55089999999999995"/>
+              <ITEM arg="283.14999999999998" value="0.57420000000000004"/>
+              <ITEM arg="293.14999999999998" value="0.59860000000000002"/>
+              <ITEM arg="303.14999999999998" value="0.61719999999999997"/>
+              <ITEM arg="313.14999999999998" value="0.63339999999999996"/>
+              <ITEM arg="323.14999999999998" value="0.64739999999999998"/>
+              <ITEM arg="333.14999999999998" value="0.65900000000000003"/>
+              <ITEM arg="343.14999999999998" value="0.66710000000000003"/>
+              <ITEM arg="353.14999999999998" value="0.67410000000000003"/>
+              <ITEM arg="363.14999999999998" value="0.67989999999999995"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="4" Number="4">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="100000">
+            <Table>
+              <ITEM arg="273.14999999999998" value="4217"/>
+              <ITEM arg="323.14999999999998" value="4181"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="5" Number="5">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="100000">
+            <Table>
+              <ITEM arg="0" value="-1256848.5499999998"/>
+              <ITEM arg="273.14999999999998" value="-104975"/>
+              <ITEM arg="323.14999999999998" value="104975"/>
+              <ITEM arg="100323.14999999999" value="418204975"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="6" Number="6">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="7" Number="7">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTable1DB" myid="0" VarType="PHYSICAL" VarComp="SOURCE" Extrapolation="BOUND">
+        <Table>
+          <ITEM arg="610.79999999999995" value="273.14999999999998"/>
+          <ITEM arg="871.79999999999995" value="278.14999999999998"/>
+          <ITEM arg="1227.0999999999999" value="283.14999999999998"/>
+          <ITEM arg="1704.0999999999999" value="288.14999999999998"/>
+          <ITEM arg="2336.8000000000002" value="293.14999999999998"/>
+          <ITEM arg="3166.3000000000002" value="298.14999999999998"/>
+          <ITEM arg="4241.6999999999998" value="303.14999999999998"/>
+          <ITEM arg="5621.6999999999998" value="308.14999999999998"/>
+          <ITEM arg="7374.8999999999996" value="313.14999999999998"/>
+          <ITEM arg="9581.7000000000007" value="318.14999999999998"/>
+          <ITEM arg="12335" value="323.14999999999998"/>
+          <ITEM arg="15740" value="328.14999999999998"/>
+          <ITEM arg="19919" value="333.14999999999998"/>
+          <ITEM arg="25008" value="338.14999999999998"/>
+          <ITEM arg="31161" value="343.14999999999998"/>
+          <ITEM arg="38548" value="348.14999999999998"/>
+          <ITEM arg="47359" value="353.14999999999998"/>
+          <ITEM arg="57803" value="358.14999999999998"/>
+          <ITEM arg="70108" value="363.14999999999998"/>
+          <ITEM arg="84525" value="368.14999999999998"/>
+          <ITEM arg="101325" value="372.24000000000001"/>
+          <ITEM arg="202650" value="392.76999999999998"/>
+          <ITEM arg="303975" value="406.02999999999997"/>
+          <ITEM arg="405300" value="416.06999999999999"/>
+          <ITEM arg="506625" value="424.25999999999999"/>
+          <ITEM arg="607950" value="431.23000000000002"/>
+          <ITEM arg="709275" value="437.31999999999999"/>
+          <ITEM arg="810600" value="442.75999999999999"/>
+          <ITEM arg="911925" value="447.68000000000001"/>
+          <ITEM arg="1013250" value="452.19"/>
+          <ITEM arg="1114575" value="456.35000000000002"/>
+          <ITEM arg="1215900" value="460.23000000000002"/>
+          <ITEM arg="1317225" value="463.86000000000001"/>
+          <ITEM arg="1418550" value="467.27999999999997"/>
+          <ITEM arg="1519875" value="470.50999999999999"/>
+          <ITEM arg="1621200" value="473.57999999999998"/>
+          <ITEM arg="1722525" value="476.5"/>
+          <ITEM arg="1823850" value="479.29000000000002"/>
+          <ITEM arg="1925175" value="481.95999999999998"/>
+          <ITEM arg="2026500" value="484.52999999999997"/>
+          <ITEM arg="2127825" value="487"/>
+          <ITEM arg="2229150" value="489.48000000000002"/>
+          <ITEM arg="2330475" value="491.68000000000001"/>
+          <ITEM arg="2431800" value="493.89999999999998"/>
+          <ITEM arg="2533125" value="496.05000000000001"/>
+          <ITEM arg="2634450" value="498.13999999999999"/>
+          <ITEM arg="2735775" value="500.16000000000003"/>
+          <ITEM arg="2837100" value="502.13"/>
+          <ITEM arg="2938425" value="504.04000000000002"/>
+          <ITEM arg="3039750" value="505.91000000000003"/>
+          <ITEM arg="3242400" value="509.5"/>
+          <ITEM arg="3445050" value="512.91999999999996"/>
+          <ITEM arg="3647700" value="516.19000000000005"/>
+          <ITEM arg="3850350" value="519.32000000000005"/>
+          <ITEM arg="4053000" value="522.33000000000004"/>
+          <ITEM arg="4255650" value="525.22000000000003"/>
+          <ITEM arg="4458300" value="528.01999999999998"/>
+          <ITEM arg="4660950" value="530.71000000000004"/>
+          <ITEM arg="4863600" value="533.32000000000005"/>
+          <ITEM arg="5066250" value="535.85000000000002"/>
+          <ITEM arg="5572875" value="541.85000000000002"/>
+          <ITEM arg="6079500" value="547.44000000000005"/>
+          <ITEM arg="6586125" value="552.64999999999998"/>
+          <ITEM arg="7092750" value="557.63"/>
+          <ITEM arg="7599375" value="562.35000000000002"/>
+          <ITEM arg="8106000" value="566.76999999999998"/>
+          <ITEM arg="8612625" value="571.04999999999995"/>
+          <ITEM arg="9119250" value="575.07000000000005"/>
+          <ITEM arg="9625875" value="578.95000000000005"/>
+          <ITEM arg="10132500" value="582.67999999999995"/>
+          <ITEM arg="11145750" value="589.73000000000002"/>
+          <ITEM arg="12159000" value="596.29999999999995"/>
+          <ITEM arg="13172250" value="602.45000000000005"/>
+          <ITEM arg="14185500" value="608.24000000000001"/>
+          <ITEM arg="15198750" value="613.71000000000004"/>
+          <ITEM arg="16212000" value="618.88999999999999"/>
+          <ITEM arg="17225250" value="623.80999999999995"/>
+          <ITEM arg="18238500" value="628.5"/>
+          <ITEM arg="19251750" value="632.97000000000003"/>
+          <ITEM arg="20265000" value="637.23000000000002"/>
+          <ITEM arg="21278250" value="641.30999999999995"/>
+          <ITEM arg="22291500" value="645.25"/>
+          <ITEM arg="22848788" value="647.35000000000002"/>
+        </Table>
+        <Var>
+          <Physical>
+            <ITEM Size="1" IDVar="PRES" IDPhase="-1" BlockType="CMotionProcess"/>
+          </Physical>
+          <Integral/>
+          <User/>
+        </Var>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="8" Number="8">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTable1DB" myid="0" VarType="PHYSICAL" VarComp="SOURCE" Extrapolation="BOUND">
+        <Table>
+          <ITEM arg="101325" value="273.14999999999998"/>
+        </Table>
+        <Var>
+          <Physical>
+            <ITEM Size="1" IDVar="PRES" IDPhase="-1" BlockType="CMotionProcess"/>
+          </Physical>
+          <Integral/>
+          <User/>
+        </Var>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="9" Number="9">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="101000">
+            <Table>
+              <ITEM arg="273" value="1"/>
+              <ITEM arg="273.19999999999999" value="0"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="10" Number="10">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueTablePT" myid="0">
+        <Table>
+          <ITEM arg="101325">
+            <Table>
+              <ITEM arg="273.14999999999998" value="0.076499999999999999"/>
+              <ITEM arg="293.14999999999998" value="0.072900000000000006"/>
+              <ITEM arg="313.14999999999998" value="0.069500000000000006"/>
+              <ITEM arg="323.14999999999998" value="0.067799999999999999"/>
+              <ITEM arg="333.14999999999998" value="0.066100000000000006"/>
+              <ITEM arg="353.14999999999998" value="0.062700000000000006"/>
+              <ITEM arg="373.14999999999998" value="0.058900000000000001"/>
+              <ITEM arg="393.14999999999998" value="0.055"/>
+              <ITEM arg="413.14999999999998" value="0.0528"/>
+              <ITEM arg="433.14999999999998" value="0.0465"/>
+              <ITEM arg="453.14999999999998" value="0.042200000000000001"/>
+              <ITEM arg="473.14999999999998" value="0.0378"/>
+            </Table>
+          </ITEM>
+        </Table>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="11" Number="11">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="12" Number="12">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="13" Number="13">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="14" Number="14">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="15" Number="15">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="16" Number="16">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+    <OBJECT class="CSubstanceProperty" myid="17" Number="17">
+      <Value Source="*.0"/>
+      <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CPhase" myid="41" UIName="Фаза #0">
+    <Type>Continuum</Type>
+    <MuMixingModel>MODEL2_MU</MuMixingModel>
+    <LbMixingModel>MODEL2_LB</LbMixingModel>
+    <Substances>
+      <ITEM>*-2.-2.13</ITEM>
+    </Substances>
+    <OBJECT class="CEquations" myid="0">
+      <OBJECT ForceCVisc="0" TIME_STEP_COEF="1" class="CNavierStokesEqSys" myid="0"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT class="CModel" myid="69" UIName="Модель #0">
+    <Phases>
+      <ITEM>*-2.-2.41</ITEM>
+    </Phases>
+    <InterPhase/>
+    <InitialData>
+      <ITEM>*.0</ITEM>
+    </InitialData>
+    <GapModel>*.4</GapModel>
+    <Rotary>0</Rotary>
+    <GapEqSys>*.5</GapEqSys>
+    <OBJECT class="CInitialData" myid="0" UIName="Нач. данные #0">
+      <OBJECT class="CIniVarVector" Variable="*-2.-2.69.39" myid="0">
+        <Value>
+          <x Source="*.0"/>
+          <y Source="*.1"/>
+          <z Source="*.2"/>
+        </Value>
+        <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+        <OBJECT class="CFvValueConstant" Constant="0" myid="1"/>
+        <OBJECT class="CFvValueConstant" Constant="0" myid="2"/>
+      </OBJECT>
+      <OBJECT class="CIniVarScalar" Variable="*-2.-2.69.43" myid="1">
+        <Value Source="*.0"/>
+        <OBJECT class="CFvValueConstant" Constant="0" myid="0"/>
+      </OBJECT>
+    </OBJECT>
+    <OBJECT class="CGapModel" MaxGap="0.002" MinGap="9.9999999999999995E-007" myid="4"/>
+    <OBJECT class="CGapEqSys" myid="5"/>
+    <OBJECT Obj="0" class="CFVScalarVariable" MainVar="0" ICell="0" IDVar="VOLUMEDATA" myid="6" IDNum="0" IBVar="-1" Flag="3" avType="AV_NOTSET"/>
+    <OBJECT Obj="0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="TIMESTEP_EXPLICIT" myid="7" IDNum="5" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="0" class="CFVScalarVariable" MainVar="0" ICell="1" IDVar="FLAGMODIFICATORS" myid="8" IDNum="1" IBVar="-1" Flag="3" avType="AV_NOTSET"/>
+    <OBJECT Obj="0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="CLEARANCE" myid="9" IDNum="2" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.69.5" class="CFVScalarVariable" MainVar="0" ICell="51" IDVar="CLEARANCE" myid="10" IDNum="0" IBVar="-1" Flag="3" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.69.5" class="CFVScalarVariable" MainVar="0" ICell="52" IDVar="INDEX_BCOND_0" myid="11" IDNum="1" IBVar="-1" Flag="3" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.69.5" class="CFVScalarVariable" MainVar="0" ICell="53" IDVar="INDEX_BCOND_1" myid="12" IDNum="2" IBVar="-1" Flag="3" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.69.5" class="CFVScalarVariable" MainVar="0" ICell="54" IDVar="PRES_GAP_COEF" myid="13" IDNum="3" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="0" ICell="6" IDVar="PHASE_VOLUME" myid="20" IDNum="19" IBVar="0" Flag="18455" avType="AV_FITA_SPECIAL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="*-2.-2.69.20" ICell="7" IDVar="PHASE_VOLUME_CURR" myid="21" IDNum="20" IBVar="-1" Flag="16385" avType="AV_FITA_SPECIAL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVVectorVariable" MainVar="0" ICell="8" IDVar="VECTOR_DUMMY" myid="22" IDNum="21" IBVar="-1" Flag="1" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="0" ICell="2" IDVar="MOLWEIGHT" myid="32" IDNum="0" IBVar="-1" Flag="19" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="0" ICell="3" IDVar="DENSITY" myid="33" IDNum="1" IBVar="-1" Flag="4115" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="0" ICell="4" IDVar="VISCOSITY" myid="34" IDNum="2" IBVar="-1" Flag="16403" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41" class="CFVScalarVariable" MainVar="0" ICell="5" IDVar="CP" myid="35" IDNum="4" IBVar="-1" Flag="19" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="11" IDVar="VEL" myid="39" IDNum="0" IBVar="0" Flag="58143" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="*-2.-2.69.39" ICell="14" IDVar="VEL_CURR" myid="40" IDNum="1" IBVar="-1" Flag="16385" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="*-2.-2.69.39" ICell="55" IDVar="VEL_NORM" myid="41" IDNum="2" IBVar="-1" Flag="64" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="*-2.-2.69.39" ICell="56" IDVar="VEL_TILD" myid="42" IDNum="3" IBVar="-1" Flag="64" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="17" IDVar="PRES" myid="43" IDNum="4" IBVar="1" Flag="45847" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="*-2.-2.69.43" ICell="18" IDVar="PRES_CURR" myid="44" IDNum="5" IBVar="-1" Flag="1" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="*-2.-2.69.43" ICell="-1" IDVar="PRES_HST" myid="45" IDNum="6" IBVar="-1" Flag="16" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="19" IDVar="DENS_CURR" myid="46" IDNum="7" IBVar="-1" Flag="1" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="20" IDVar="SQRT_DENS" myid="47" IDNum="8" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="21" IDVar="DRODP" myid="48" IDNum="9" IBVar="-1" Flag="3" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="22" IDVar="DENS_TILD" myid="49" IDNum="10" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="23" IDVar="DENS_PRIM" myid="50" IDNum="11" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="24" IDVar="W_CENTER" myid="51" IDNum="12" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="27" IDVar="MACH" myid="52" IDNum="13" IBVar="-1" Flag="3" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="SONIC_SPEED" myid="53" IDNum="14" IBVar="-1" Flag="0" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="GAMMA" myid="54" IDNum="15" IBVar="-1" Flag="0" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="28" IDVar="TOTAL_PRESSURE" myid="55" IDNum="16" IBVar="-1" Flag="19" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="29" IDVar="DIV_VEL" myid="56" IDNum="17" IBVar="-1" Flag="19" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="30" IDVar="STRESS" myid="57" IDNum="18" IBVar="-1" Flag="83" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="57" IDVar="STRESS_X" myid="58" IDNum="19" IBVar="-1" Flag="64" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="58" IDVar="STRESS_Y" myid="59" IDNum="20" IBVar="-1" Flag="64" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="59" IDVar="STRESS_Z" myid="60" IDNum="21" IBVar="-1" Flag="64" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="31" IDVar="VALUE_IN_CELL" myid="61" IDNum="22" IBVar="-1" Flag="1" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="32" IDVar="DARCY_COEF" myid="62" IDNum="23" IBVar="-1" Flag="33" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="33" IDVar="VELDIAG_COEF" myid="63" IDNum="24" IBVar="-1" Flag="1" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="36" IDVar="VOLUME_FORCE_SOURCE" myid="64" IDNum="25" IBVar="-1" Flag="33" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="P_GRAD" myid="65" IDNum="26" IBVar="-1" Flag="0" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="VIS_DIST" myid="66" IDNum="27" IBVar="-1" Flag="16" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="ROT_VEL" myid="67" IDNum="29" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="S_CRITERION" myid="68" IDNum="30" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="W_CRITERION" myid="69" IDNum="31" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="Q_CRITERION" myid="70" IDNum="32" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="MACH_NUMBER" myid="71" IDNum="33" IBVar="-1" Flag="16" avType="AV_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="60" IDVar="AV" myid="72" IDNum="34" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="61" IDVar="BV" myid="73" IDNum="35" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="39" IDVar="GCOMPLEX" myid="74" IDNum="36" IBVar="-1" Flag="1" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="SHEAR_STRESS_VEC" myid="75" IDNum="37" IBVar="-1" Flag="16" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="40" IDVar="ADD_RIGHT_PART" myid="76" IDNum="38" IBVar="-1" Flag="2049" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="43" IDVar="FSI_OVERMASS" myid="77" IDNum="41" IBVar="-1" Flag="2049" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="44" IDVar="VOLUME_CORRECTS" myid="78" IDNum="39" IBVar="-1" Flag="2049" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="47" IDVar="IS_NEED_CORR" myid="79" IDNum="40" IBVar="-1" Flag="1" avType="AV_NOTSET"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="LIGHTHILL_SMALL" myid="80" IDNum="42" IBVar="-1" Flag="16" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="LIGHTHILL_FULL" myid="81" IDNum="43" IBVar="-1" Flag="16" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="LIGHTHILL_SMALL_DIV" myid="82" IDNum="44" IBVar="-1" Flag="16" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVVectorVariable" MainVar="0" ICell="-1" IDVar="LIGHTHILL_FULL_DIV" myid="83" IDNum="45" IBVar="-1" Flag="16" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_SMALL_X" myid="84" IDNum="46" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_SMALL_Y" myid="85" IDNum="47" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_SMALL_Z" myid="86" IDNum="48" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_FULL_X" myid="87" IDNum="49" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_FULL_Y" myid="88" IDNum="50" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="-1" IDVar="LGHT_FULL_Z" myid="89" IDNum="51" IBVar="-1" Flag="0" avType="AV_DENS_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="62" IDVar="PRES_CHIP" myid="90" IDNum="52" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="63" IDVar="TEMP_CHIP" myid="91" IDNum="53" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="64" IDVar="DENS_CHIP" myid="92" IDNum="54" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="65" IDVar="SSPD_CHIP" myid="93" IDNum="55" IBVar="-1" Flag="64" avType="AV_VOF_VOL"/>
+    <OBJECT Obj="*-2.-2.41.0.0" class="CFVScalarVariable" MainVar="0" ICell="50" IDVar="TIMESTEP_EXPLICIT" myid="94" IDNum="56" IBVar="-1" Flag="1" avType="AV_NOTSET"/>
+  </OBJECT>
+</FVINPUT>
