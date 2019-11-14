@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FVSCENE AppVersion="FlowVision PrePostProcessor, version 3.11.01-W64 build 20190523 changeset 39055" GridCoordSys="1">
+  <ShowTimeTitle>1</ShowTimeTitle>
+  <TextTitle FontSize="24" BgAlpha="100" ShowTime="1" BgColor="00000000" ShowIter="1" Color="00000000">
+    <Title>Турбулентность</Title>
+    <TimeFormat NumDigits="5" Scientific="0" SplitFormat="0"/>
+    <UserValueLines/>
+    <Position VAlign="VA_TOP" HShift="0.5" VShift="0" HAlign="HA_LEFT"/>
+  </TextTitle>
+  <OBJECT Lit="1" class="CSpaceObjectLayer" myid="0" Clipped="0" GUID="108F82D9-3D8F-4E49-BB9D-D587A648B18A" Visible="1">
+    <Object>*-2.-2.0</Object>
+  </OBJECT>
+  <OBJECT class="CIntegralCharsLayer" myid="1">
+    <SaveData>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>IntegralCharsLayer0.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Chars>*-2.-2.-99</Chars>
+  </OBJECT>
+  <OBJECT class="CPlaneEntity" shiftAlongNormal="0" myid="2" GUID="1F31BA1D-594E-496C-AE02-330B3A7B46FA" UIName="Плоскость #0">
+    <center x="0" y="0" z="1"/>
+    <normal x="1" y="0" z="0"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CPlaneObjectLayer" Clipper="0" myid="3" Clipped="0" GUID="EBBD9E14-763D-428A-8BF7-8BAEB1FD2B1A" Visible="1" Mirror="0">
+    <Object>*-2.-4.2</Object>
+    <OBJECT Mode="WIRE" class="CCommonAppearance" myid="0">
+      <Lines Width="3" Color="00FFFF00"/>
+      <Fill Alpha="100" Color="00808000"/>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT m_HPosition="eLeft" Lit="1" class="CCoordSystemLayer" myid="4" Clipped="0" m_ViewportPart="0.16250000000000001" GUID="85221DAC-52EF-4DB2-924F-8E86433393D8" Visible="1" m_VPosition="eBottom" m_InOrigin="0">
+    <Object>*-2.-2.0</Object>
+  </OBJECT>
+  <OBJECT Lit="1" class="CSolidGeometryLayer" myid="5" Clipped="0" GUID="7F527FDB-E8DB-45B6-BDC5-E0D51AC8C828" Visible="1">
+    <Object>*-2.-2.0</Object>
+    <Outlines Width="4" Color="00FFFFFF"/>
+    <Outside UseInside="1">
+      <Appearance Fill="DEFAULT" Material="0" Wire="DEFAULT" Alpha="50" Color="00C0C0C0"/>
+    </Outside>
+    <OBJECT class="CVariantView" myid="-2">
+      <OBJECT class="CRegionView" myid="-2" Clipped="DEFAULT" Visible="DEFAULT">
+        <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+        <Trans Enabled="DEFAULT" Alpha="50"/>
+        <OBJECT class="CSubregFolderView" myid="-2">
+          <OBJECT class="CSubregionView" myid="2" Clipped="DEFAULT" Visible="DEFAULT">
+            <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+            <Trans Enabled="DEFAULT" Alpha="50"/>
+            <OBJECT class="CGeometryView" myid="-4" Clipped="DEFAULT" Visible="DEFAULT">
+              <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+              <Trans Enabled="DEFAULT" Alpha="50"/>
+            </OBJECT>
+            <OBJECT class="CMBFolderView" myid="-3"/>
+            <OBJECT class="CBCFolderView" myid="-2">
+              <OBJECT Material="0" class="CBConditionView" myid="5" Clipped="DEFAULT" Visible="DEFAULT" Color="00282828">
+                <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+                <Trans Enabled="DEFAULT" Alpha="50"/>
+              </OBJECT>
+              <OBJECT Material="0" class="CBConditionView" myid="6" Clipped="DEFAULT" Visible="DEFAULT" Color="00FF0000">
+                <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+                <Trans Enabled="DEFAULT" Alpha="50"/>
+              </OBJECT>
+              <OBJECT Material="0" class="CBConditionView" myid="7" Clipped="DEFAULT" Visible="DEFAULT" Color="000000FF">
+                <Style Fill="DEFAULT" Wire="DEFAULT" Outline="DEFAULT"/>
+                <Trans Enabled="DEFAULT" Alpha="50"/>
+              </OBJECT>
+            </OBJECT>
+          </OBJECT>
+        </OBJECT>
+      </OBJECT>
+    </OBJECT>
+  </OBJECT>
+  <OBJECT Lit="1" class="CIniGridLayer" Surface="1" myid="6" Clipped="0" GUID="70DCB343-BF86-4782-8690-CC6D96B57248" Visible="0">
+    <Object>*-2.-2.0</Object>
+    <Lines Width="1" Color="00FFFFFF"/>
+  </OBJECT>
+  <OBJECT Lit="0" Width="2" class="CScalarLayer" myid="92" Clipped="0" GUID="D4B0F568-02AB-4BF9-B407-7F085F64E237" Visible="1" DrawMode="FLOOD" UIName="ТурбВязкость">
+    <Object>*-2.-4.2</Object>
+    <Settings>
+      <Mode>UNASSIGNED</Mode>
+      <Parts/>
+    </Settings>
+    <Update>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+    </Update>
+    <SaveData>
+      <Kind>NON</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>ScalarLayer0.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Var Comp="SOURCE">
+      <Description Size="1" IDVar="TURB_VISC" IDPhase="-1" BlockType="CTurbulenceProcess"/>
+      <Integration>
+        <Enabled>0</Enabled>
+        <IntegrationDir>NORMAL</IntegrationDir>
+        <CustomDir x="1" y="0" z="0"/>
+        <Inverted>0</Inverted>
+      </Integration>
+      <Interpolation>1</Interpolation>
+    </Var>
+    <SubRegion>0</SubRegion>
+    <Shift>0</Shift>
+    <RegularGrid>0</RegularGrid>
+    <Resolution Size1="100" Size2="100" LocalSystem="1" Size3="1"/>
+    <DoubleResolution>0</DoubleResolution>
+    <Mapping MappingMode="MANUAL" Min="0" Max="0.90000000000000002"/>
+    <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
+    <Palette>
+      <Overlay HorzAlign="LEFT" Enabled="1" ShowTitle="1" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00000000"/>
+      <Gradations>0</Gradations>
+      <Colors>
+        <ITEM>000000FF</ITEM>
+        <ITEM>000064FF</ITEM>
+        <ITEM>0000B9FF</ITEM>
+        <ITEM>0000FFFF</ITEM>
+        <ITEM>0000FF9F</ITEM>
+        <ITEM>0000FF00</ITEM>
+        <ITEM>009FFF00</ITEM>
+        <ITEM>00FFFF00</ITEM>
+        <ITEM>00FFB900</ITEM>
+        <ITEM>00FF6400</ITEM>
+        <ITEM>00FF0000</ITEM>
+      </Colors>
+      <Values>
+        <ITEM>0</ITEM>
+        <ITEM>0.10000000000000001</ITEM>
+        <ITEM>0.20000000000000001</ITEM>
+        <ITEM>0.30000000000000004</ITEM>
+        <ITEM>0.40000000000000002</ITEM>
+        <ITEM>0.5</ITEM>
+        <ITEM>0.59999999999999998</ITEM>
+        <ITEM>0.69999999999999996</ITEM>
+        <ITEM>0.79999999999999993</ITEM>
+        <ITEM>0.89999999999999991</ITEM>
+        <ITEM>0.99999999999999989</ITEM>
+      </Values>
+      <Transparency Mode="CONSTANT" ConstAlpha="100">
+        <Alphas>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+          <ITEM>100</ITEM>
+        </Alphas>
+      </Transparency>
+    </Palette>
+    <OBJECT class="CPlaneConstraints" myid="-100" Enabled="0" Type="RECTANGLE" Size1="0.10000000000000001" Size2="0.10000000000000001"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CVectorLayer" myid="100" Clipped="0" GUID="DE023764-C8BC-4770-842D-D3A26EDCAAFE" Visible="1" UIName="Скорость">
+    <Object>*-2.-4.2</Object>
+    <Settings>
+      <Mode>UNASSIGNED</Mode>
+      <Parts/>
+    </Settings>
+    <Update>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+    </Update>
+    <SaveData>
+      <Kind>NON</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>VectorLayer0.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Var Comp="SOURCE">
+      <Description Size="3" IDVar="VEL" IDPhase="-1" BlockType="CMotionProcess"/>
+      <Integration>
+        <Enabled>0</Enabled>
+        <IntegrationDir>NORMAL</IntegrationDir>
+        <CustomDir x="1" y="0" z="0"/>
+        <Inverted>0</Inverted>
+      </Integration>
+      <Interpolation>1</Interpolation>
+    </Var>
+    <SubRegion>0</SubRegion>
+    <Shift>0</Shift>
+    <RegularGrid>1</RegularGrid>
+    <Resolution Size1="20" Size2="20" LocalSystem="1" Size3="1"/>
+    <GridSelection OBL="1" Main="1" OBLChips="0"/>
+    <CoorSystem>
+      <Type>ABSOLUTE_CS</Type>
+      <LocalFrameRef>0</LocalFrameRef>
+      <Rotation>0</Rotation>
+      <Translation>0</Translation>
+      <Relativity>
+        <Linear x="0" y="0" z="0"/>
+        <Rotation x="0" y="0" z="0"/>
+        <Pivot x="0" y="0" z="0"/>
+      </Relativity>
+    </CoorSystem>
+    <Mapping ReferenceLen="0.040099875311526839" MappingMode="LOCAL" ConstantLen="0" Max="11.251635551452637"/>
+    <Mode>FULL</Mode>
+    <Lines Width="1" Color="00FFFFFF"/>
+    <Arrows Angle="20" Mode="LINES" Size="20"/>
+    <Origins Show="0" Color="000000FF"/>
+    <Cover>
+      <Var Comp="LENGTH">
+        <Description Size="3" IDVar="VEL" IDPhase="-1" BlockType="CMotionProcess"/>
+        <Integration>
+          <Enabled>0</Enabled>
+          <IntegrationDir>NORMAL</IntegrationDir>
+          <CustomDir x="1" y="0" z="0"/>
+          <Inverted>0</Inverted>
+        </Integration>
+      </Var>
+      <Mapping MappingMode="LOCAL" Min="8.8959341049194336" Max="11.251635551452637"/>
+      <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
+      <Palette>
+        <Overlay HorzAlign="LEFT" Enabled="0" ShowTitle="0" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00FFFFFF"/>
+        <Gradations>0</Gradations>
+        <Colors>
+          <ITEM>000000FF</ITEM>
+          <ITEM>000064FF</ITEM>
+          <ITEM>0000B9FF</ITEM>
+          <ITEM>0000FFFF</ITEM>
+          <ITEM>0000FF9F</ITEM>
+          <ITEM>0000FF00</ITEM>
+          <ITEM>009FFF00</ITEM>
+          <ITEM>00FFFF00</ITEM>
+          <ITEM>00FFB900</ITEM>
+          <ITEM>00FF6400</ITEM>
+          <ITEM>00FF0000</ITEM>
+        </Colors>
+        <Values>
+          <ITEM>0</ITEM>
+          <ITEM>0.10000000000000001</ITEM>
+          <ITEM>0.20000000000000001</ITEM>
+          <ITEM>0.30000000000000004</ITEM>
+          <ITEM>0.40000000000000002</ITEM>
+          <ITEM>0.5</ITEM>
+          <ITEM>0.59999999999999998</ITEM>
+          <ITEM>0.69999999999999996</ITEM>
+          <ITEM>0.79999999999999993</ITEM>
+          <ITEM>0.89999999999999991</ITEM>
+          <ITEM>0.99999999999999989</ITEM>
+        </Values>
+      </Palette>
+    </Cover>
+    <OBJECT class="CPlaneConstraints" myid="-100" Enabled="0" Type="RECTANGLE" Size1="0.10000000000000001" Size2="0.10000000000000001"/>
+  </OBJECT>
+  <OBJECT class="CLineEntity" myid="147" GUID="B941C6DD-5616-4516-B0CB-10D30F3D4996" UIName="Линия #0">
+    <center x="0" y="0" z="0.001"/>
+    <normal x="0" y="0" z="1"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CLineObjectLayer" myid="148" Clipped="0" GUID="80BD6ADA-7679-4E42-8800-E1491191473A" Visible="1">
+    <Object>*-2.-4.147</Object>
+    <OBJECT Width="3" class="CLineAppearance" myid="0" Style="NICE" Color="00FFFF00"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CPlanarPlotLayer" myid="156" Clipped="0" GUID="A50A409D-A9FD-4698-92B4-4579DD13B11D" Visible="1" UIName="Давление">
+    <Object>*-2.-4.147</Object>
+    <Update>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+    </Update>
+    <SaveData>
+      <Kind>NON</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>PlanarPlotLayer0.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Var Comp="SOURCE">
+      <Description Size="1" IDVar="PRES" IDPhase="-1" BlockType="CMotionProcess"/>
+      <Integration>
+        <Enabled>0</Enabled>
+        <IntegrationDir>NORMAL</IntegrationDir>
+        <CustomDir x="1" y="0" z="0"/>
+        <Inverted>0</Inverted>
+      </Integration>
+      <Interpolation>1</Interpolation>
+    </Var>
+    <SubRegion>0</SubRegion>
+    <NumPoints>10</NumPoints>
+    <Angle>0</Angle>
+    <Mapping MappingMode="MANUAL" Min="0" Max="13000"/>
+    <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
+    <AxisX Spans="10" Inverted="0">
+      <Length Mode="AUTO" Value="1.9989999000000001"/>
+    </AxisX>
+    <AxisY Spans="10" Inverted="0">
+      <Length Mode="AUTO" Value="1.2493749375000001"/>
+    </AxisY>
+    <Visuals>
+      <ShowGrid>1</ShowGrid>
+      <NoOcclude>0</NoOcclude>
+      <Plot Width="3" Color="000000FF"/>
+      <Axes Width="3" Color="00000000"/>
+      <Grid Mode="WIRE">
+        <Lines Width="1" Color="00000000"/>
+        <Fill Alpha="100" Color="001F1F7F"/>
+      </Grid>
+      <Arrows>007F7FFF</Arrows>
+    </Visuals>
+    <Cover>
+      <Var Comp="SOURCE">
+        <Description Size="0" IDVar="" IDPhase="-1" BlockType="0"/>
+        <Integration>
+          <Enabled>0</Enabled>
+          <IntegrationDir>NORMAL</IntegrationDir>
+          <CustomDir x="1" y="0" z="0"/>
+          <Inverted>0</Inverted>
+        </Integration>
+      </Var>
+      <Mapping MappingMode="LOCAL" Min="0" Max="0"/>
+      <LogScale Limit="1.0000000000000001E-005" Enabled="0"/>
+      <Palette>
+        <Overlay HorzAlign="LEFT" Enabled="1" ShowTitle="1" Style="STYLE3" VertAlign="TOP" Gradations="11" Color="00000000"/>
+        <Gradations>0</Gradations>
+        <Colors>
+          <ITEM>000000FF</ITEM>
+          <ITEM>000064FF</ITEM>
+          <ITEM>0000B9FF</ITEM>
+          <ITEM>0000FFFF</ITEM>
+          <ITEM>0000FF9F</ITEM>
+          <ITEM>0000FF00</ITEM>
+          <ITEM>009FFF00</ITEM>
+          <ITEM>00FFFF00</ITEM>
+          <ITEM>00FFB900</ITEM>
+          <ITEM>00FF6400</ITEM>
+          <ITEM>00FF0000</ITEM>
+        </Colors>
+        <Values>
+          <ITEM>0</ITEM>
+          <ITEM>0.10000000000000001</ITEM>
+          <ITEM>0.20000000000000001</ITEM>
+          <ITEM>0.30000000000000004</ITEM>
+          <ITEM>0.40000000000000002</ITEM>
+          <ITEM>0.5</ITEM>
+          <ITEM>0.59999999999999998</ITEM>
+          <ITEM>0.69999999999999996</ITEM>
+          <ITEM>0.79999999999999993</ITEM>
+          <ITEM>0.89999999999999991</ITEM>
+          <ITEM>0.99999999999999989</ITEM>
+        </Values>
+      </Palette>
+    </Cover>
+    <OBJECT class="CPlotGloFormat" Orient="COLUMNS" myid="-200"/>
+  </OBJECT>
+  <OBJECT Lit="1" class="CSupergroupObjectLayer" myid="164" Clipped="0" GUID="CAC6CD34-AE0F-453D-991A-B7FC8D4A01DE" Visible="1">
+    <Object>*-2.-2.117</Object>
+  </OBJECT>
+  <OBJECT class="CIntegralCharsLayer" myid="172">
+    <SaveData>
+      <Kind>AUTO</Kind>
+      <Time>0</Time>
+      <Iteration>1</Iteration>
+      <Filename>IntegralCharsLayer2.glo</Filename>
+      <Mode>APPEND</Mode>
+      <UpdateOnStop>0</UpdateOnStop>
+    </SaveData>
+    <Chars>*-2.-2.127</Chars>
+  </OBJECT>
+</FVSCENE>
